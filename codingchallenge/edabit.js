@@ -22,3 +22,8 @@ function lessThanOrEqualToZero(num) {
 function calcAge(age) {
   return age * 365;
 }
+
+//Write a function that takes an integer minutes and converts it to seconds.
+function convert(minutes) {
+  return minutes * 60;
+}
