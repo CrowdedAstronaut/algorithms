@@ -42,3 +42,7 @@ function cubes(a) {
 function triArea(base, height) {
   return (base * height) / 2;
 }
+
+function addition(a, b) {
+  return a + b;
+}
