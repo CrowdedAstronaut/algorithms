@@ -109,3 +109,9 @@ function checkEquality(a, b) {
 function swap(a, b) {
   return [b, a];
 }
+
+function nameString(name) {
+  let b = "Edabit";
+  let result = name + b;
+  return result;
+}
