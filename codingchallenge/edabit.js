@@ -93,3 +93,7 @@ function and(a, b) {
 function nextEdge(side1, side2) {
   return side1 + side2 - 1;
 }
+
+function sumPolygon(n) {
+  return (n - 2) * 180;
+}
