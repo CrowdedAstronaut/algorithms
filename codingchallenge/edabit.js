@@ -97,3 +97,11 @@ function nextEdge(side1, side2) {
 function sumPolygon(n) {
   return (n - 2) * 180;
 }
+
+function checkEquality(a, b) {
+  if (a === b) {
+    return true;
+  } else {
+    return false;
+  }
+}
