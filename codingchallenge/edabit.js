@@ -81,3 +81,11 @@ function cubes(a) {
 function remainder(x, y) {
   return x % y;
 }
+
+function and(a, b) {
+  if (a === true && b === true) {
+    return true;
+  } else {
+    return false;
+  }
+}
