@@ -115,3 +115,10 @@ function nameString(name) {
   let result = name + b;
   return result;
 }
+
+function footballPoints(wins, draws, losses) {
+  let win = wins * 3;
+  let draw = draws * 1;
+  let loss = losses * 0;
+  return win + draw + loss;
+}
