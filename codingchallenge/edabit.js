@@ -105,3 +105,7 @@ function checkEquality(a, b) {
     return false;
   }
 }
+
+function swap(a, b) {
+  return [b, a];
+}
