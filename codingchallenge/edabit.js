@@ -122,3 +122,7 @@ function footballPoints(wins, draws, losses) {
   let loss = losses * 0;
   return win + draw + loss;
 }
+
+function nextEdge(side1, side2) {
+  return side1 + side2 - 1;
+}
