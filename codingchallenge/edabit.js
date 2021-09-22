@@ -143,3 +143,26 @@ function makesTen(a, b) {
     return false;
   }
 }
+
+function animals(chickens, cows, pigs) {
+  const numChicks = chickens * 2;
+  const numCows = cows * 4;
+  const numPigs = pigs * 4;
+
+  return numChicks + numCows + numPigs;
+}
+
+function isSeven(x) {
+  if (x == "7") {
+    return true;
+  }
+  return false;
+}
+
+function maxNum(n1, n2) {
+  if (n1 > n2) {
+    return n2;
+  } else {
+    return n1;
+  }
+}
