@@ -126,3 +126,10 @@ function footballPoints(wins, draws, losses) {
 function nextEdge(side1, side2) {
   return side1 + side2 - 1;
 }
+
+function greeting(name) {
+  if (name == "Mubashir") {
+    return "Hello, my Love!";
+  }
+  return "Hello, " + name + "!";
+}
