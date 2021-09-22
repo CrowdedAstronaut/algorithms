@@ -161,8 +161,34 @@ function isSeven(x) {
 
 function maxNum(n1, n2) {
   if (n1 > n2) {
-    return n2;
-  } else {
     return n1;
+  } else {
+    return n2;
   }
+}
+
+function points(twoPointers, threePointers) {
+  const twoPoints = twoPointers * 2;
+  const threePoints = threePointers * 3;
+  return twoPoints + threePoints;
+}
+
+function convert(hours, minutes) {
+  const hour_seconds = hours * 60 * 60;
+  const minute_seconds = minutes * 60;
+  return hour_seconds + minute_seconds;
+}
+
+function comp(str1, str2) {
+  if (str1.length === str2.length) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+const calculator = eval;
+
+function boolToString(flag) {
+  return flag.toString();
 }
