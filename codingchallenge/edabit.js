@@ -203,3 +203,10 @@ function isSameNum(num1, num2) {
   }
   return false;
 }
+
+function divisibleByFive(n) {
+  if (n % "5" === "0") {
+    true;
+  }
+  false;
+}
