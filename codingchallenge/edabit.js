@@ -237,3 +237,9 @@ function area(h, w) {
 function dividesEvenly(a, b) {
   return a % b === 0 ? true : false;
 }
+
+function makePair(num1, num2) {
+  const arr = [];
+  arr.push(num1, num2);
+  return arr;
+}
