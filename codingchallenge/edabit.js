@@ -233,3 +233,7 @@ function area(h, w) {
     return h * w;
   }
 }
+
+function dividesEvenly(a, b) {
+  return a % b === 0 ? true : false;
+}
