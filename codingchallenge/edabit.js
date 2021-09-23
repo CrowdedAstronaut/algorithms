@@ -192,3 +192,14 @@ const calculator = eval;
 function boolToString(flag) {
   return flag.toString();
 }
+
+function frames(minutes, fps) {
+  return minutes * fps * 60;
+}
+
+function isSameNum(num1, num2) {
+  if (num1 === num2) {
+    return true;
+  }
+  return false;
+}
