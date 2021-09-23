@@ -243,3 +243,5 @@ function makePair(num1, num2) {
   arr.push(num1, num2);
   return arr;
 }
+
+arrowFunc = (parameters) => parameters;
