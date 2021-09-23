@@ -245,3 +245,7 @@ function makePair(num1, num2) {
 }
 
 arrowFunc = (parameters) => parameters;
+
+stringInt = (str) => parseInt(str);
+
+isEmpty = (s) => (s === "" ? true : false);
