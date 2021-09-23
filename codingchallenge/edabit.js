@@ -217,3 +217,7 @@ function divisible(num) {
   }
   return false;
 }
+
+function isEven(n) {
+  return n % 2 === 0 ? true : false;
+}
