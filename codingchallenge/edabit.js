@@ -205,8 +205,15 @@ function isSameNum(num1, num2) {
 }
 
 function divisibleByFive(n) {
-  if (n % "5" === "0") {
-    true;
+  if (n % "5" == "0") {
+    return true;
   }
-  false;
+  return false;
+}
+
+function divisible(num) {
+  if (num % "100" == "0") {
+    return true;
+  }
+  return false;
 }
