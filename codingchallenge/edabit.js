@@ -259,11 +259,9 @@ has_bugs = (buggy_code) =>
 
 equation = (s) => eval(s);
 
-yearsInOneHouse = (age, moves) =>
-  Math.round(age / (moves + 1));
+yearsInOneHouse = (age, moves) => Math.round(age / (moves + 1));
 
-concatName = (firstName, lastName) =>
-  `${lastName}, ${firstName}`;
+concatName = (firstName, lastName) => `${lastName}, ${firstName}`;
 
 function length(str) {
   while (str.length >= 0) {
@@ -273,7 +271,8 @@ function length(str) {
 
 reverse = (arr) => arr.reverse();
 
-howManyWalls = (n, w, h) =>
-  h * w > n ? 0 : Math.floor(n / (h * w));
+howManyWalls = (n, w, h) => (h * w > n ? 0 : Math.floor(n / (h * w)));
 
 returnNegative = (n) => (n <= 0 ? n : n * -1);
+
+const getVoteCount = ({ upvotes, downvotes }) => upvotes - downvotes;
