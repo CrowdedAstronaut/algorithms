@@ -261,3 +261,6 @@ equation = (s) => eval(s);
 
 yearsInOneHouse = (age, moves) =>
   Math.round(age / (moves + 1));
+
+concatName = (firstName, lastName) =>
+  `${lastName}, ${firstName}`;
