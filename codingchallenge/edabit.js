@@ -256,3 +256,8 @@ isEven = (n) => (n % 2 === 0 ? true : false);
 
 has_bugs = (buggy_code) =>
   buggy_code === true ? "sad days" : `it's a good day`;
+
+equation = (s) => eval(s);
+
+yearsInOneHouse = (age, moves) =>
+  Math.round(age / (moves + 1));
