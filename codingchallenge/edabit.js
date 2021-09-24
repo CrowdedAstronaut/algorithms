@@ -249,3 +249,7 @@ arrowFunc = (parameters) => parameters;
 stringInt = (str) => parseInt(str);
 
 isEmpty = (s) => (s === "" ? true : false);
+
+const eq = eval;
+
+isEven = (n) => (n % 2 === 0 ? true : false);
