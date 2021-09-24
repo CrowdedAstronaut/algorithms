@@ -253,3 +253,6 @@ isEmpty = (s) => (s === "" ? true : false);
 const eq = eval;
 
 isEven = (n) => (n % 2 === 0 ? true : false);
+
+has_bugs = (buggy_code) =>
+  buggy_code === true ? "sad days" : `it's a good day`;
