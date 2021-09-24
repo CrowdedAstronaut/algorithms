@@ -276,3 +276,14 @@ howManyWalls = (n, w, h) => (h * w > n ? 0 : Math.floor(n / (h * w)));
 returnNegative = (n) => (n <= 0 ? n : n * -1);
 
 const getVoteCount = ({ upvotes, downvotes }) => upvotes - downvotes;
+
+function add(y, x) {
+  return y + x;
+}
+
+[2, 3, 5, 7, 11].forEach((n) => (this[`add${n}`] = (x) => x + n));
+
+compare_to_100 = (x) => (x > 100 ? "greater" : x < 100 ? "smaller" : "equal");
+
+acceptIntoMovie = (age, isSupervised) =>
+  age >= 15 || isSupervised == true ? true : false;
