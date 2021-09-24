@@ -264,3 +264,16 @@ yearsInOneHouse = (age, moves) =>
 
 concatName = (firstName, lastName) =>
   `${lastName}, ${firstName}`;
+
+function length(str) {
+  while (str.length >= 0) {
+    return str.length;
+  }
+}
+
+reverse = (arr) => arr.reverse();
+
+howManyWalls = (n, w, h) =>
+  h * w > n ? 0 : Math.floor(n / (h * w));
+
+returnNegative = (n) => (n <= 0 ? n : n * -1);
