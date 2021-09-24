@@ -287,3 +287,7 @@ compare_to_100 = (x) => (x > 100 ? "greater" : x < 100 ? "smaller" : "equal");
 
 acceptIntoMovie = (age, isSupervised) =>
   age >= 15 || isSupervised == true ? true : false;
+
+equilibrium = (x) => (x > 0 ? "positive" : x < 0 ? "negative" : true);
+
+const incrementItems = (arr) => arr.map((n) => n + 1);
