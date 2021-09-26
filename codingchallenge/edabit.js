@@ -306,3 +306,11 @@ let a = arr[0];
 let b = arr[1];
 
 leapYear = (year) => (year % 4 === 0 || year % 400 === 0 ? true : false);
+
+operate = (num1, num2, operator) => eval(num1, operator, num2);
+
+function getLastItem(arr) {
+  return arr.length[-1];
+}
+
+minMax = (arr) => [Math.min(...arr), Math.max(...arr)];
