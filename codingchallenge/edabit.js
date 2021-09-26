@@ -298,3 +298,5 @@ calculateExponent = (num, exp) => num ** exp;
 
 shouldServeDrinks = (age, onBreak) =>
   age >= 18 && onBreak == !true ? true : false;
+
+imposterFormula = (i, p) => Math.round(100 * (i / p)) + "%";
