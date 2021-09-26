@@ -304,3 +304,5 @@ imposterFormula = (i, p) => Math.round(100 * (i / p)) + "%";
 const arr = [1, 2, 3, 4, 5, 6];
 let a = arr[0];
 let b = arr[1];
+
+leapYear = (year) => (year % 4 === 0 || year % 400 === 0 ? true : false);
