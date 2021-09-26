@@ -295,3 +295,6 @@ const incrementItems = (arr) => arr.map((n) => n + 1);
 function futurePeople(population, n) {}
 
 calculateExponent = (num, exp) => num ** exp;
+
+shouldServeDrinks = (age, onBreak) =>
+  age >= 18 && onBreak == !true ? true : false;
