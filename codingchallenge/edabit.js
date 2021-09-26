@@ -291,3 +291,7 @@ acceptIntoMovie = (age, isSupervised) =>
 equilibrium = (x) => (x > 0 ? "positive" : x < 0 ? "negative" : true);
 
 const incrementItems = (arr) => arr.map((n) => n + 1);
+
+function futurePeople(population, n) {}
+
+calculateExponent = (num, exp) => num ** exp;
