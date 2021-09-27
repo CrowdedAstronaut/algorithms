@@ -335,3 +335,7 @@ function format(a, b, c) {
   const template = `Their names were: ${a}, ${b} and ${c}.`;
   return template;
 }
+
+//Given an index and an array, return the value of the array with the given index.
+
+isOdd = (num) => (num % 2 === 0 ? false : true);
