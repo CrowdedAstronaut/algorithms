@@ -355,3 +355,7 @@ function areaShape(base, height, shape) {
     return 0.5 * base * height;
   } else return base * height;
 }
+
+function concat(arr1, arr2) {
+  return arr1.concat(arr2);
+}
