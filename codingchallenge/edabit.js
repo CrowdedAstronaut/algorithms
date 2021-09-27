@@ -348,3 +348,10 @@ oddOrEven = (s) => (s.length % 2 === 0 ? true : false);
 
 //Create a function that takes a number as an argument and returns "even" for even numbers and "odd" for odd numbers
 isEvenOrOdd = (num) => (num % 2 === 0 ? "even" : "odd");
+
+//Write a function that accepts base (decimal), height (decimal) and shape ("triangle", "parallelogram") as input and calculates the area of that shape.
+function areaShape(base, height, shape) {
+  if (shape === "triangle") {
+    return 0.5 * base * height;
+  } else return base * height;
+}
