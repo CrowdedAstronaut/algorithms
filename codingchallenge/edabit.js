@@ -259,9 +259,11 @@ has_bugs = (buggy_code) =>
 
 equation = (s) => eval(s);
 
-yearsInOneHouse = (age, moves) => Math.round(age / (moves + 1));
+yearsInOneHouse = (age, moves) =>
+  Math.round(age / (moves + 1));
 
-concatName = (firstName, lastName) => `${lastName}, ${firstName}`;
+concatName = (firstName, lastName) =>
+  `${lastName}, ${firstName}`;
 
 function length(str) {
   while (str.length >= 0) {
@@ -271,24 +273,30 @@ function length(str) {
 
 reverse = (arr) => arr.reverse();
 
-howManyWalls = (n, w, h) => (h * w > n ? 0 : Math.floor(n / (h * w)));
+howManyWalls = (n, w, h) =>
+  h * w > n ? 0 : Math.floor(n / (h * w));
 
 returnNegative = (n) => (n <= 0 ? n : n * -1);
 
-const getVoteCount = ({ upvotes, downvotes }) => upvotes - downvotes;
+const getVoteCount = ({ upvotes, downvotes }) =>
+  upvotes - downvotes;
 
 function add(y, x) {
   return y + x;
 }
 
-[2, 3, 5, 7, 11].forEach((n) => (this[`add${n}`] = (x) => x + n));
+[2, 3, 5, 7, 11].forEach(
+  (n) => (this[`add${n}`] = (x) => x + n)
+);
 
-compare_to_100 = (x) => (x > 100 ? "greater" : x < 100 ? "smaller" : "equal");
+compare_to_100 = (x) =>
+  x > 100 ? "greater" : x < 100 ? "smaller" : "equal";
 
 acceptIntoMovie = (age, isSupervised) =>
   age >= 15 || isSupervised == true ? true : false;
 
-equilibrium = (x) => (x > 0 ? "positive" : x < 0 ? "negative" : true);
+equilibrium = (x) =>
+  x > 0 ? "positive" : x < 0 ? "negative" : true;
 
 const incrementItems = (arr) => arr.map((n) => n + 1);
 
@@ -305,9 +313,11 @@ const arr = [1, 2, 3, 4, 5, 6];
 let a = arr[0];
 let b = arr[1];
 
-leapYear = (year) => (year % 4 === 0 || year % 400 === 0 ? true : false);
+leapYear = (year) =>
+  year % 4 === 0 || year % 400 === 0 ? true : false;
 
-operate = (num1, num2, operator) => eval(num1, operator, num2);
+operate = (num1, num2, operator) =>
+  eval(num1, operator, num2);
 
 function getLastItem(arr) {
   return arr.length[-1];
@@ -318,3 +328,10 @@ minMax = (arr) => [Math.min(...arr), Math.max(...arr)];
 const sum = (n) => (n === 1 ? n : n + sum(n - 1));
 
 yeah_nope = (bool) => (true ? "yeah" : "nope");
+
+// modify the template variable to be a template string
+function format(a, b, c) {
+  // the result string must give: "Their names were: a, b and c."
+  const template = `Their names were: ${a}, ${b} and ${c}.`;
+  return template;
+}
