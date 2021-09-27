@@ -339,3 +339,6 @@ function format(a, b, c) {
 //Given an index and an array, return the value of the array with the given index.
 
 isOdd = (num) => (num % 2 === 0 ? false : true);
+
+//Create a function that accepts a measurement value in inches and returns the equivalent of the measurement value in feet.
+inchesToFeet = (inches) => (inches < 12 ? 0 : inches / 12);
