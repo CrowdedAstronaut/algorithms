@@ -345,3 +345,6 @@ inchesToFeet = (inches) => (inches < 12 ? 0 : inches / 12);
 
 //Is the String Odd or Even?
 oddOrEven = (s) => (s.length % 2 === 0 ? true : false);
+
+//Create a function that takes a number as an argument and returns "even" for even numbers and "odd" for odd numbers
+isEvenOrOdd = (num) => (num % 2 === 0 ? "even" : "odd");
