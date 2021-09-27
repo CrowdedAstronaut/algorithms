@@ -316,3 +316,5 @@ function getLastItem(arr) {
 minMax = (arr) => [Math.min(...arr), Math.max(...arr)];
 
 const sum = (n) => (n === 1 ? n : n + sum(n - 1));
+
+yeah_nope = (bool) => (true ? "yeah" : "nope");
