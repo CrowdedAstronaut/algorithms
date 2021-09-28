@@ -359,3 +359,11 @@ function areaShape(base, height, shape) {
 function concat(arr1, arr2) {
   return arr1.concat(arr2);
 }
+
+function flipBool(b) {
+  if (b == true) {
+    return 0;
+  } else {
+    return 1;
+  }
+}
