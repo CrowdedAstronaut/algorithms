@@ -394,3 +394,13 @@ function sumArray(arr) {
     previousValue + currentValue;
   return arr.reduce(reducer);
 }
+
+function findIndex(arr, str) {
+  return arr.indexOf(str);
+}
+
+function operate(num1, num2, operator) {
+  return eval(num1 + operator + num2);
+}
+
+const colorInvert = (rgb) => rgb.map((x) => 255 - x);
