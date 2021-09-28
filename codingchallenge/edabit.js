@@ -372,3 +372,25 @@ function flipBool(b) {
 function arrayToString(arr) {
   return arr.join("").toString();
 }
+
+function fiftyThirtyTwenty(ati) {
+  return {
+    Needs: 0.5 * ati,
+    Wants: 0.3 * ati,
+    Savings: 0.2 * ati,
+  };
+}
+
+function search(arr, item) {
+  return arr.indexOf(item);
+}
+
+function newWord(str) {
+  return str.slice(1);
+}
+
+function sumArray(arr) {
+  const reducer = (previousValue, currentValue) =>
+    previousValue + currentValue;
+  return arr.reduce(reducer);
+}
