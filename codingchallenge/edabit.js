@@ -496,10 +496,13 @@
 //     : "Not A String !!";
 // }
 
-function intToString(num) {
-  return String(num);
-}
+// function intToString(num) {
+//   return String(num);
+// }
 
-function stringToInt(num) {
-  return Number(num);
-}
+// function stringToInt(num) {
+//   return Number(num);
+// }
+const pi = 3.14;
+const circle_or_square = (rad, area) =>
+  2 * pi * rad > Math.sqrt(area) * 4 ? true : false;
