@@ -503,6 +503,8 @@
 // function stringToInt(num) {
 //   return Number(num);
 // }
-const pi = 3.14;
-const circle_or_square = (rad, area) =>
-  2 * pi * rad > Math.sqrt(area) * 4 ? true : false;
+// const pi = 3.14;
+// const circle_or_square = (rad, area) =>
+//   2 * pi * rad > Math.sqrt(area) * 4 ? true : false;
+
+const addBinary = (a, b) => (a + b).toString(2);
