@@ -1,362 +1,448 @@
-//Create a function that takes length and width and finds the perimeter of a rectangle.
+// //Create a function that takes length and width and finds the perimeter of a rectangle.
 
-function findPerimeter(length, width) {
-  return length * 2 + width * 2;
-}
+// function findPerimeter(length, width) {
+//   return length * 2 + width * 2;
+// }
 
-//Write a function that returns the string "something" joined with a space " " and the given argument a.
-function giveMeSomething(a) {
-  return `something ${a}`;
-}
+// //Write a function that returns the string "something" joined with a space " " and the given argument a.
+// function giveMeSomething(a) {
+//   return `something ${a}`;
+// }
 
-//Create a function that takes a number as its only argument and returns true if it's less than or equal to zero, otherwise return false.
-function lessThanOrEqualToZero(num) {
-  if (num <= 0) {
-    return true;
-  } else {
-    return false;
-  }
-}
+// //Create a function that takes a number as its only argument and returns true if it's less than or equal to zero, otherwise return false.
+// function lessThanOrEqualToZero(num) {
+//   if (num <= 0) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
 
-//Create a function that takes the age in years and returns the age in days.
-function calcAge(age) {
-  return age * 365;
-}
+// //Create a function that takes the age in years and returns the age in days.
+// function calcAge(age) {
+//   return age * 365;
+// }
 
-//Write a function that takes an integer minutes and converts it to seconds.
-function convert(minutes) {
-  return minutes * 60;
-}
+// //Write a function that takes an integer minutes and converts it to seconds.
+// function convert(minutes) {
+//   return minutes * 60;
+// }
 
-//Fix the code in the code tab to pass this challenge (only syntax errors). Look at the examples below to get an idea of what the function should do.
-function squared(b) {
-  return b * b;
-}
+// //Fix the code in the code tab to pass this challenge (only syntax errors). Look at the examples below to get an idea of what the function should do.
+// function squared(b) {
+//   return b * b;
+// }
 
-//Fix the code in the code tab to pass this challenge (only syntax errors). Look at the examples below to get an idea of what the function should do.
-function cubes(a) {
-  return a ** 3;
-}
+// //Fix the code in the code tab to pass this challenge (only syntax errors). Look at the examples below to get an idea of what the function should do.
+// function cubes(a) {
+//   return a ** 3;
+// }
 
-//Write a function that takes the base and height of a triangle and return its area.
-function triArea(base, height) {
-  return (base * height) / 2;
-}
+// //Write a function that takes the base and height of a triangle and return its area.
+// function triArea(base, height) {
+//   return (base * height) / 2;
+// }
 
-function addition(a, b) {
-  return a + b;
-}
+// function addition(a, b) {
+//   return a + b;
+// }
 
-//Mubashir created an infinite loop! Help him by fixing the code in the code tab to pass this challenge. Look at the examples below to get an idea of what the function should do.
-function printArray(number) {
-  let newArray = [];
+// //Mubashir created an infinite loop! Help him by fixing the code in the code tab to pass this challenge. Look at the examples below to get an idea of what the function should do.
+// function printArray(number) {
+//   let newArray = [];
 
-  for (let i = 1; i <= number; i++) {
-    newArray.push(i);
-  }
+//   for (let i = 1; i <= number; i++) {
+//     newArray.push(i);
+//   }
 
-  return newArray;
-}
+//   return newArray;
+// }
 
-//Given two numbers, return true if the sum of both numbers is less than 100. Otherwise return false.
-function lessThan100(a, b) {
-  if (a + b < 100) {
-    return true;
-  } else {
-    return false;
-  }
-}
+// //Given two numbers, return true if the sum of both numbers is less than 100. Otherwise return false.
+// function lessThan100(a, b) {
+//   if (a + b < 100) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
 
-//There is a single operator in JavaScript, capable of providing the remainder of a division operation. Two numbers are passed as parameters. The first parameter divided by the second parameter will have a remainder, possibly zero. Return that value.
-function remainder(x, y) {
-  return x % y;
-}
+// //There is a single operator in JavaScript, capable of providing the remainder of a division operation. Two numbers are passed as parameters. The first parameter divided by the second parameter will have a remainder, possibly zero. Return that value.
+// function remainder(x, y) {
+//   return x % y;
+// }
 
-//Fix the code in the code tab to pass this challenge (only syntax errors). Look at the examples below to get an idea of what the function should do.
-function cubes(a) {
-  return a ** 3;
-}
+// //Fix the code in the code tab to pass this challenge (only syntax errors). Look at the examples below to get an idea of what the function should do.
+// function cubes(a) {
+//   return a ** 3;
+// }
 
-// There is a single operator in JavaScript, capable of providing the remainder of a division operation. Two numbers are passed as parameters. The first parameter divided by the second parameter will have a remainder, possibly zero. Return that value.
-function remainder(x, y) {
-  return x % y;
-}
+// // There is a single operator in JavaScript, capable of providing the remainder of a division operation. Two numbers are passed as parameters. The first parameter divided by the second parameter will have a remainder, possibly zero. Return that value.
+// function remainder(x, y) {
+//   return x % y;
+// }
 
-function and(a, b) {
-  if (a === true && b === true) {
-    return true;
-  } else {
-    return false;
-  }
-}
+// function and(a, b) {
+//   if (a === true && b === true) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
 
-function nextEdge(side1, side2) {
-  return side1 + side2 - 1;
-}
+// function nextEdge(side1, side2) {
+//   return side1 + side2 - 1;
+// }
 
-function sumPolygon(n) {
-  return (n - 2) * 180;
-}
+// function sumPolygon(n) {
+//   return (n - 2) * 180;
+// }
 
-function checkEquality(a, b) {
-  if (a === b) {
-    return true;
-  } else {
-    return false;
-  }
-}
+// function checkEquality(a, b) {
+//   if (a === b) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
 
-function swap(a, b) {
-  return [b, a];
-}
+// function swap(a, b) {
+//   return [b, a];
+// }
 
-function nameString(name) {
-  let b = "Edabit";
-  let result = name + b;
-  return result;
-}
+// function nameString(name) {
+//   let b = "Edabit";
+//   let result = name + b;
+//   return result;
+// }
 
-function footballPoints(wins, draws, losses) {
-  let win = wins * 3;
-  let draw = draws * 1;
-  let loss = losses * 0;
-  return win + draw + loss;
-}
+// function footballPoints(wins, draws, losses) {
+//   let win = wins * 3;
+//   let draw = draws * 1;
+//   let loss = losses * 0;
+//   return win + draw + loss;
+// }
 
-function nextEdge(side1, side2) {
-  return side1 + side2 - 1;
-}
+// function nextEdge(side1, side2) {
+//   return side1 + side2 - 1;
+// }
 
-function greeting(name) {
-  if (name == "Mubashir") {
-    return "Hello, my Love!";
-  }
-  return "Hello, " + name + "!";
-}
+// function greeting(name) {
+//   if (name == "Mubashir") {
+//     return "Hello, my Love!";
+//   }
+//   return "Hello, " + name + "!";
+// }
 
-function makesTen(a, b) {
-  if (a === 10 || b === 10) {
-    return true;
-  } else if (a + b === 10) {
-    return true;
-  } else {
-    return false;
-  }
-}
+// function makesTen(a, b) {
+//   if (a === 10 || b === 10) {
+//     return true;
+//   } else if (a + b === 10) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
 
-function animals(chickens, cows, pigs) {
-  const numChicks = chickens * 2;
-  const numCows = cows * 4;
-  const numPigs = pigs * 4;
+// function animals(chickens, cows, pigs) {
+//   const numChicks = chickens * 2;
+//   const numCows = cows * 4;
+//   const numPigs = pigs * 4;
 
-  return numChicks + numCows + numPigs;
-}
+//   return numChicks + numCows + numPigs;
+// }
 
-function isSeven(x) {
-  if (x == "7") {
-    return true;
-  }
-  return false;
-}
+// function isSeven(x) {
+//   if (x == "7") {
+//     return true;
+//   }
+//   return false;
+// }
 
-function maxNum(n1, n2) {
-  if (n1 > n2) {
-    return n1;
-  } else {
-    return n2;
-  }
-}
+// function maxNum(n1, n2) {
+//   if (n1 > n2) {
+//     return n1;
+//   } else {
+//     return n2;
+//   }
+// }
 
-function points(twoPointers, threePointers) {
-  const twoPoints = twoPointers * 2;
-  const threePoints = threePointers * 3;
-  return twoPoints + threePoints;
-}
+// function points(twoPointers, threePointers) {
+//   const twoPoints = twoPointers * 2;
+//   const threePoints = threePointers * 3;
+//   return twoPoints + threePoints;
+// }
 
-function convert(hours, minutes) {
-  const hour_seconds = hours * 60 * 60;
-  const minute_seconds = minutes * 60;
-  return hour_seconds + minute_seconds;
-}
+// function convert(hours, minutes) {
+//   const hour_seconds = hours * 60 * 60;
+//   const minute_seconds = minutes * 60;
+//   return hour_seconds + minute_seconds;
+// }
 
-function comp(str1, str2) {
-  if (str1.length === str2.length) {
-    return true;
-  } else {
-    return false;
-  }
-}
+// function comp(str1, str2) {
+//   if (str1.length === str2.length) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
 
-const calculator = eval;
+// const calculator = eval;
 
-function boolToString(flag) {
-  return flag.toString();
-}
+// function boolToString(flag) {
+//   return flag.toString();
+// }
 
-function frames(minutes, fps) {
-  return minutes * fps * 60;
-}
+// function frames(minutes, fps) {
+//   return minutes * fps * 60;
+// }
 
-function isSameNum(num1, num2) {
-  if (num1 === num2) {
-    return true;
-  }
-  return false;
-}
+// function isSameNum(num1, num2) {
+//   if (num1 === num2) {
+//     return true;
+//   }
+//   return false;
+// }
 
-function divisibleByFive(n) {
-  if (n % "5" == "0") {
-    return true;
-  }
-  return false;
-}
+// function divisibleByFive(n) {
+//   if (n % "5" == "0") {
+//     return true;
+//   }
+//   return false;
+// }
 
-function divisible(num) {
-  if (num % "100" == "0") {
-    return true;
-  }
-  return false;
-}
+// function divisible(num) {
+//   if (num % "100" == "0") {
+//     return true;
+//   }
+//   return false;
+// }
 
-function isEven(n) {
-  return n % 2 === 0 ? true : false;
-}
+// function isEven(n) {
+//   return n % 2 === 0 ? true : false;
+// }
 
-function profitableGamble(prob, prize, pay) {
-  return prob * prize > pay ? true : false;
-}
+// function profitableGamble(prob, prize, pay) {
+//   return prob * prize > pay ? true : false;
+// }
 
-function area(h, w) {
-  if (h <= 0 || w <= 0) {
-    return -1;
-  } else {
-    return h * w;
-  }
-}
+// function area(h, w) {
+//   if (h <= 0 || w <= 0) {
+//     return -1;
+//   } else {
+//     return h * w;
+//   }
+// }
 
-function dividesEvenly(a, b) {
-  return a % b === 0 ? true : false;
-}
+// function dividesEvenly(a, b) {
+//   return a % b === 0 ? true : false;
+// }
 
-function makePair(num1, num2) {
-  const arr = [];
-  arr.push(num1, num2);
-  return arr;
-}
+// function makePair(num1, num2) {
+//   const arr = [];
+//   arr.push(num1, num2);
+//   return arr;
+// }
 
-arrowFunc = (parameters) => parameters;
+// arrowFunc = (parameters) => parameters;
 
-stringInt = (str) => parseInt(str);
+// stringInt = (str) => parseInt(str);
 
-isEmpty = (s) => (s === "" ? true : false);
+// isEmpty = (s) => (s === "" ? true : false);
 
-const eq = eval;
+// const eq = eval;
 
-isEven = (n) => (n % 2 === 0 ? true : false);
+// isEven = (n) => (n % 2 === 0 ? true : false);
 
-has_bugs = (buggy_code) =>
-  buggy_code === true ? "sad days" : `it's a good day`;
+// has_bugs = (buggy_code) =>
+//   buggy_code === true ? "sad days" : `it's a good day`;
 
-equation = (s) => eval(s);
+// equation = (s) => eval(s);
 
+// yearsInOneHouse = (age, moves) =>
+//   Math.round(age / (moves + 1));
+
+// concatName = (firstName, lastName) =>
+//   `${lastName}, ${firstName}`;
+
+// function length(str) {
+//   while (str.length >= 0) {
+//     return str.length;
+//   }
+// }
+
+// reverse = (arr) => arr.reverse();
+
+// howManyWalls = (n, w, h) =>
+//   h * w > n ? 0 : Math.floor(n / (h * w));
+
+// returnNegative = (n) => (n <= 0 ? n : n * -1);
+
+// const getVoteCount = ({ upvotes, downvotes }) =>
+//   upvotes - downvotes;
+
+// function add(y, x) {
+//   return y + x;
+// }
+
+// [2, 3, 5, 7, 11].forEach(
+//   (n) => (this[`add${n}`] = (x) => x + n)
+// );
+
+<<<<<<< HEAD
 yearsInOneHouse = (age, moves) => Math.round(age / (moves + 1));
 
 concatName = (firstName, lastName) => `${lastName}, ${firstName}`;
+=======
+// compare_to_100 = (x) =>
+//   x > 100 ? "greater" : x < 100 ? "smaller" : "equal";
 
-function length(str) {
-  while (str.length >= 0) {
-    return str.length;
-  }
-}
+// acceptIntoMovie = (age, isSupervised) =>
+//   age >= 15 || isSupervised == true ? true : false;
+>>>>>>> fb392e6 (Solved parseArray)
 
-reverse = (arr) => arr.reverse();
+// equilibrium = (x) =>
+//   x > 0 ? "positive" : x < 0 ? "negative" : true;
 
+// const incrementItems = (arr) => arr.map((n) => n + 1);
+
+<<<<<<< HEAD
 howManyWalls = (n, w, h) => (h * w > n ? 0 : Math.floor(n / (h * w)));
+=======
+// function futurePeople(population, n) {}
+>>>>>>> fb392e6 (Solved parseArray)
 
-returnNegative = (n) => (n <= 0 ? n : n * -1);
+// calculateExponent = (num, exp) => num ** exp;
 
+<<<<<<< HEAD
 const getVoteCount = ({ upvotes, downvotes }) => upvotes - downvotes;
+=======
+// shouldServeDrinks = (age, onBreak) =>
+//   age >= 18 && onBreak == !true ? true : false;
+>>>>>>> fb392e6 (Solved parseArray)
 
-function add(y, x) {
-  return y + x;
-}
+// imposterFormula = (i, p) => Math.round(100 * (i / p)) + "%";
 
+<<<<<<< HEAD
 [2, 3, 5, 7, 11].forEach((n) => (this[`add${n}`] = (x) => x + n));
 
 compare_to_100 = (x) => (x > 100 ? "greater" : x < 100 ? "smaller" : "equal");
+=======
+// const arr = [1, 2, 3, 4, 5, 6];
+// let a = arr[0];
+// let b = arr[1];
 
-acceptIntoMovie = (age, isSupervised) =>
-  age >= 15 || isSupervised == true ? true : false;
+// leapYear = (year) =>
+//   year % 4 === 0 || year % 400 === 0 ? true : false;
+>>>>>>> fb392e6 (Solved parseArray)
 
+// operate = (num1, num2, operator) =>
+//   eval(num1, operator, num2);
+
+<<<<<<< HEAD
 equilibrium = (x) => (x > 0 ? "positive" : x < 0 ? "negative" : true);
+=======
+// function getLastItem(arr) {
+//   return arr.length[-1];
+// }
+>>>>>>> fb392e6 (Solved parseArray)
 
-const incrementItems = (arr) => arr.map((n) => n + 1);
+// minMax = (arr) => [Math.min(...arr), Math.max(...arr)];
 
-function futurePeople(population, n) {}
+// const sum = (n) => (n === 1 ? n : n + sum(n - 1));
 
-calculateExponent = (num, exp) => num ** exp;
+// yeah_nope = (bool) => (true ? "yeah" : "nope");
 
-shouldServeDrinks = (age, onBreak) =>
-  age >= 18 && onBreak == !true ? true : false;
+// // modify the template variable to be a template string
+// function format(a, b, c) {
+//   // the result string must give: "Their names were: a, b and c."
+//   const template = `Their names were: ${a}, ${b} and ${c}.`;
+//   return template;
+// }
 
-imposterFormula = (i, p) => Math.round(100 * (i / p)) + "%";
+// //Given an index and an array, return the value of the array with the given index.
 
-const arr = [1, 2, 3, 4, 5, 6];
-let a = arr[0];
-let b = arr[1];
+// isOdd = (num) => (num % 2 === 0 ? false : true);
 
+<<<<<<< HEAD
 leapYear = (year) => (year % 4 === 0 || year % 400 === 0 ? true : false);
 
 operate = (num1, num2, operator) => eval(num1, operator, num2);
+=======
+// //Create a function that accepts a measurement value in inches and returns the equivalent of the measurement value in feet.
+// inchesToFeet = (inches) => (inches < 12 ? 0 : inches / 12);
 
-function getLastItem(arr) {
-  return arr.length[-1];
-}
+// //Is the String Odd or Even?
+// oddOrEven = (s) => (s.length % 2 === 0 ? true : false);
+>>>>>>> fb392e6 (Solved parseArray)
 
-minMax = (arr) => [Math.min(...arr), Math.max(...arr)];
+// //Create a function that takes a number as an argument and returns "even" for even numbers and "odd" for odd numbers
+// isEvenOrOdd = (num) => (num % 2 === 0 ? "even" : "odd");
 
-const sum = (n) => (n === 1 ? n : n + sum(n - 1));
+// //Write a function that accepts base (decimal), height (decimal) and shape ("triangle", "parallelogram") as input and calculates the area of that shape.
+// function areaShape(base, height, shape) {
+//   if (shape === "triangle") {
+//     return 0.5 * base * height;
+//   } else return base * height;
+// }
 
-yeah_nope = (bool) => (true ? "yeah" : "nope");
+// function concat(arr1, arr2) {
+//   return arr1.concat(arr2);
+// }
 
-// modify the template variable to be a template string
-function format(a, b, c) {
-  // the result string must give: "Their names were: a, b and c."
-  const template = `Their names were: ${a}, ${b} and ${c}.`;
-  return template;
-}
+// function flipBool(b) {
+//   if (b == true) {
+//     return 0;
+//   } else {
+//     return 1;
+//   }
+// }
 
-//Given an index and an array, return the value of the array with the given index.
+// //Create a function that takes an array of numbers or letters and returns a string
+// function arrayToString(arr) {
+//   return arr.join("").toString();
+// }
 
-isOdd = (num) => (num % 2 === 0 ? false : true);
+// function fiftyThirtyTwenty(ati) {
+//   return {
+//     Needs: 0.5 * ati,
+//     Wants: 0.3 * ati,
+//     Savings: 0.2 * ati,
+//   };
+// }
 
-//Create a function that accepts a measurement value in inches and returns the equivalent of the measurement value in feet.
-inchesToFeet = (inches) => (inches < 12 ? 0 : inches / 12);
+// function search(arr, item) {
+//   return arr.indexOf(item);
+// }
 
-//Is the String Odd or Even?
-oddOrEven = (s) => (s.length % 2 === 0 ? true : false);
+// function newWord(str) {
+//   return str.slice(1);
+// }
 
-//Create a function that takes a number as an argument and returns "even" for even numbers and "odd" for odd numbers
-isEvenOrOdd = (num) => (num % 2 === 0 ? "even" : "odd");
+// function sumArray(arr) {
+//   const reducer = (previousValue, currentValue) =>
+//     previousValue + currentValue;
+//   return arr.reduce(reducer);
+// }
 
-//Write a function that accepts base (decimal), height (decimal) and shape ("triangle", "parallelogram") as input and calculates the area of that shape.
-function areaShape(base, height, shape) {
-  if (shape === "triangle") {
-    return 0.5 * base * height;
-  } else return base * height;
-}
+// function findIndex(arr, str) {
+//   return arr.indexOf(str);
+// }
 
-function concat(arr1, arr2) {
-  return arr1.concat(arr2);
-}
+// function operate(num1, num2, operator) {
+//   return eval(num1 + operator + num2);
+// }
 
-function flipBool(b) {
-  if (b == true) {
-    return 0;
+// const colorInvert = (rgb) => rgb.map((x) => 255 - x);
+
+function parseArray(arr) {
+  if (arr.length > 1) {
+    return arr.map(String);
   } else {
-    return 1;
+    return [];
   }
 }
+<<<<<<< HEAD
 
 //Create a function that takes an array of numbers or letters and returns a string
 function arrayToString(arr) {
@@ -401,3 +487,5 @@ const helloName = (name) => `Hello ${name}!`;
 function check(arr, el) {
   return arr.includes(el);
 }
+=======
+>>>>>>> fb392e6 (Solved parseArray)
