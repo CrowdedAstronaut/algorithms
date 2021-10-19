@@ -490,8 +490,16 @@
 // =======
 // >>>>>>> fb392e6 (Solved parseArray)
 
-function repeatString(txt, n) {
-  return typeof txt === "string"
-    ? txt.repeat(n)
-    : "Not A String !!";
+// function repeatString(txt, n) {
+//   return typeof txt === "string"
+//     ? txt.repeat(n)
+//     : "Not A String !!";
+// }
+
+function intToString(num) {
+  return String(num);
+}
+
+function stringToInt(num) {
+  return Number(num);
 }
