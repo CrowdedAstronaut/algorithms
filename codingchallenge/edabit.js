@@ -652,15 +652,6 @@ const sumOfCubes = (nums) => {
     return sum + Math.pow(num, 3);
   }, 0);
 };
->>>>>>> 0b07bdb (Completed codingchallenge)
-=======
-// const addBinary = (a, b) => (a + b).toString(2);
 
-function posCom(num) {
-  return Math.pow(2, num);
-}
->>>>>>> a6aec67 (Solved posCom)
 
-function howManyStickers(n) {
-	return 6 * Math.pow(n,2)
-}
+const parity = (n) => (n%2 == '0') ? 'even': 'odd';
