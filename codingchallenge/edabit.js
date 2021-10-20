@@ -351,6 +351,7 @@
 
 // // const sum = (n) => (n === 1 ? n : n + sum(n - 1));
 
+<<<<<<< HEAD
 // // yeah_nope = (bool) => (true ? "yeah" : "nope");
 
 // // // modify the template variable to be a template string
@@ -508,3 +509,146 @@
 //   2 * pi * rad > Math.sqrt(area) * 4 ? true : false;
 
 const addBinary = (a, b) => (a + b).toString(2);
+=======
+equilibrium = (x) => (x > 0 ? "positive" : x < 0 ? "negative" : true);
+
+const incrementItems = (arr) => arr.map((n) => n + 1);
+
+function futurePeople(population, n) {}
+
+calculateExponent = (num, exp) => num ** exp;
+
+shouldServeDrinks = (age, onBreak) =>
+  age >= 18 && onBreak == !true ? true : false;
+
+imposterFormula = (i, p) => Math.round(100 * (i / p)) + "%";
+
+const arr = [1, 2, 3, 4, 5, 6];
+let a = arr[0];
+let b = arr[1];
+
+leapYear = (year) => (year % 4 === 0 || year % 400 === 0 ? true : false);
+
+operate = (num1, num2, operator) => eval(num1, operator, num2);
+
+function getLastItem(arr) {
+  return arr.length[-1];
+}
+
+minMax = (arr) => [Math.min(...arr), Math.max(...arr)];
+
+const sum = (n) => (n === 1 ? n : n + sum(n - 1));
+
+yeah_nope = (bool) => (true ? "yeah" : "nope");
+
+// modify the template variable to be a template string
+function format(a, b, c) {
+  // the result string must give: "Their names were: a, b and c."
+  const template = `Their names were: ${a}, ${b} and ${c}.`;
+  return template;
+}
+
+//Given an index and an array, return the value of the array with the given index.
+
+isOdd = (num) => (num % 2 === 0 ? false : true);
+
+//Create a function that accepts a measurement value in inches and returns the equivalent of the measurement value in feet.
+inchesToFeet = (inches) => (inches < 12 ? 0 : inches / 12);
+
+//Is the String Odd or Even?
+oddOrEven = (s) => (s.length % 2 === 0 ? true : false);
+
+//Create a function that takes a number as an argument and returns "even" for even numbers and "odd" for odd numbers
+isEvenOrOdd = (num) => (num % 2 === 0 ? "even" : "odd");
+
+//Write a function that accepts base (decimal), height (decimal) and shape ("triangle", "parallelogram") as input and calculates the area of that shape.
+function areaShape(base, height, shape) {
+  if (shape === "triangle") {
+    return 0.5 * base * height;
+  } else return base * height;
+}
+
+function concat(arr1, arr2) {
+  return arr1.concat(arr2);
+}
+
+function flipBool(b) {
+  if (b == true) {
+    return 0;
+  } else {
+    return 1;
+  }
+}
+
+//Create a function that takes an array of numbers or letters and returns a string
+function arrayToString(arr) {
+  return arr.join("").toString();
+}
+
+function fiftyThirtyTwenty(ati) {
+  return {
+    Needs: 0.5 * ati,
+    Wants: 0.3 * ati,
+    Savings: 0.2 * ati,
+  };
+}
+
+function search(arr, item) {
+  return arr.indexOf(item);
+}
+
+function newWord(str) {
+  return str.slice(1);
+}
+
+function sumArray(arr) {
+  const reducer = (previousValue, currentValue) => previousValue + currentValue;
+  return arr.reduce(reducer);
+}
+
+function findIndex(arr, str) {
+  return arr.indexOf(str);
+}
+
+function operate(num1, num2, operator) {
+  return eval(num1 + operator + num2);
+}
+
+const colorInvert = (rgb) => rgb.map((x) => 255 - x);
+
+//Create a function that takes a name and returns a greeting in the form of a string. Don't use a normal function, use an arrow function.
+const helloName = (name) => `Hello ${name}!`;
+
+//Write a function to check if an array contains a particular number.
+function check(arr, el) {
+  return arr.includes(el);
+}
+
+//Create a function that takes two numbers num1, num2, and an array arr and returns an array containing all the numbers in arr greater than num1 and less than num2.
+const arrBetween = (a, b, c) => c.filter((x) => x > a && x < b);
+
+//Create a function that returns a number, based on the string provided. Here is a list of all digits (if you are non-English speaker):
+function word(s) {
+  let obj = {
+    one: 1,
+    two: 2,
+    three: 3,
+    four: 4,
+    five: 5,
+    six: 6,
+    seven: 7,
+    eight: 8,
+    nine: 9,
+    zero: 0,
+  };
+
+  return obj[s];
+}
+
+//Create a function that takes in an array of numbers and returns the sum of its cubes.
+const sumOfCubes = (nums) => {
+  return nums.reduce((sum, num) => {
+    return sum + Math.pow(num, 3);
+  }, 0);
+};
+>>>>>>> 0b07bdb (Completed codingchallenge)
