@@ -660,3 +660,7 @@ function posCom(num) {
   return Math.pow(2, num);
 }
 >>>>>>> a6aec67 (Solved posCom)
+
+function howManyStickers(n) {
+	return 6 * Math.pow(n,2)
+}
