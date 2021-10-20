@@ -508,6 +508,7 @@
 // const circle_or_square = (rad, area) =>
 //   2 * pi * rad > Math.sqrt(area) * 4 ? true : false;
 
+<<<<<<< HEAD
 const addBinary = (a, b) => (a + b).toString(2);
 =======
 equilibrium = (x) => (x > 0 ? "positive" : x < 0 ? "negative" : true);
@@ -652,3 +653,10 @@ const sumOfCubes = (nums) => {
   }, 0);
 };
 >>>>>>> 0b07bdb (Completed codingchallenge)
+=======
+// const addBinary = (a, b) => (a + b).toString(2);
+
+function posCom(num) {
+  return Math.pow(2, num);
+}
+>>>>>>> a6aec67 (Solved posCom)
