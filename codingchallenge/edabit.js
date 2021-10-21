@@ -651,5 +651,14 @@
 
 // const parity = (n) => (n%2 == '0') ? 'even': 'odd';
 
-const volumeOfBox = ({ width, length, height }) =>
-  width * length * height;
+// const volumeOfBox = ({ width, length, height }) =>
+//   width * length * height;
+
+areTrue = (a, b) =>
+  a == true && b == true // Are a & b both true
+    ? "both" // Then return "both", else...
+    : a == true
+    ? "first"
+    : b == true // Is b equal to true?
+    ? "second" // then return this value, else...
+    : "neither"; // fall back on this value
