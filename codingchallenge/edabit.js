@@ -671,6 +671,22 @@
 //   return str.includes(" ");
 // }
 
-function drop(arr, val = 1) {
-  return arr.slice(val);
+// function drop(arr, val = 1) {
+//   return arr.slice(val);
+// }
+
+// Create a function that returns the number of arguments it was called with.
+function numArgs() {
+  return arguments.length;
+}
+
+function preventChanges(obj) {
+  // write your code here
+  // don't use a return statement
+
+  Object.freeze(obj);
+  // DON'T CHANGE OR REMOVE THE LINES BELOW
+  obj.noChanges = false;
+  obj.signature = "whatever";
+  return obj;
 }
