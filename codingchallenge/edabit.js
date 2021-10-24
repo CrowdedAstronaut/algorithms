@@ -690,3 +690,7 @@ function preventChanges(obj) {
   obj.signature = "whatever";
   return obj;
 }
+
+function carsNeeded(n) {
+  return Math.ceil(n / 5);
+}
