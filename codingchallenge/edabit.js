@@ -667,6 +667,10 @@
 //   return Math.pow(n, 2);
 // }
 
-function hasSpaces(str) {
-  return str.includes(" ");
+// function hasSpaces(str) {
+//   return str.includes(" ");
+// }
+
+function drop(arr, val = 1) {
+  return arr.slice(val);
 }
