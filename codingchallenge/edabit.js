@@ -663,6 +663,10 @@
 //     ? "second" // then return this value, else...
 //     : "neither"; // fall back on this value
 
-function stackBoxes(n) {
-  return Math.pow(n, 2);
+// function stackBoxes(n) {
+//   return Math.pow(n, 2);
+// }
+
+function hasSpaces(str) {
+  return str.includes(" ");
 }
