@@ -694,3 +694,9 @@ function preventChanges(obj) {
 function carsNeeded(n) {
   return Math.ceil(n / 5);
 }
+
+function rotateByOne(arr) {
+  arr.unshift(arr[arr.length - 1]);
+  arr.pop();
+  return arr;
+}
