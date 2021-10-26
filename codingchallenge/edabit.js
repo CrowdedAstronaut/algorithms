@@ -700,3 +700,12 @@ function rotateByOne(arr) {
   arr.pop();
   return arr;
 }
+
+function reversePsychology(s) {
+  // DO NOT WRITE YOUR CODE HERE
+  if (s.length === "0") {
+    return `Do not do anything.`;
+  } else {
+    return `Do not ${s}.`;
+  }
+}
