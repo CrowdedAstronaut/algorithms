@@ -667,6 +667,7 @@
 //   return Math.pow(n, 2);
 // }
 
+<<<<<<< HEAD
 // function hasSpaces(str) {
 //   return str.includes(" ");
 // }
@@ -708,4 +709,10 @@ function reversePsychology(s) {
   } else {
     return `Do not ${s}.`;
   }
+=======
+function amazingEdabit(str) {
+  return str.includes("edabit")
+    ? str
+    : str.replace("amazing", "not amazing");
+>>>>>>> d2a5f10 (Solved amazingEdabit)
 }
