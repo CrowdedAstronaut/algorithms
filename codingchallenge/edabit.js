@@ -667,52 +667,18 @@
 //   return Math.pow(n, 2);
 // }
 
-<<<<<<< HEAD
-// function hasSpaces(str) {
-//   return str.includes(" ");
+// function amazingEdabit(str) {
+//   return str.includes("edabit")
+//     ? str
+//     : str.replace("amazing", "not amazing");
 // }
 
-// function drop(arr, val = 1) {
-//   return arr.slice(val);
-// }
-
-// Create a function that returns the number of arguments it was called with.
-function numArgs() {
-  return arguments.length;
-}
-
-function preventChanges(obj) {
-  // write your code here
-  // don't use a return statement
-
-  Object.freeze(obj);
-  // DON'T CHANGE OR REMOVE THE LINES BELOW
-  obj.noChanges = false;
-  obj.signature = "whatever";
-  return obj;
-}
-
-function carsNeeded(n) {
-  return Math.ceil(n / 5);
-}
-
-function rotateByOne(arr) {
-  arr.unshift(arr[arr.length - 1]);
-  arr.pop();
-  return arr;
-}
-
-function reversePsychology(s) {
-  // DO NOT WRITE YOUR CODE HERE
-  if (s.length === "0") {
-    return `Do not do anything.`;
+function frontThree(str) {
+  if (str.length < 3) {
+    return str.repeat(3);
   } else {
-    return `Do not ${s}.`;
+    return str.slice(0, 3).repeat(3);
   }
-=======
-function amazingEdabit(str) {
-  return str.includes("edabit")
-    ? str
-    : str.replace("amazing", "not amazing");
->>>>>>> d2a5f10 (Solved amazingEdabit)
 }
+
+console.log(frontThree("Python"));
