@@ -683,4 +683,7 @@
 
 // console.log(frontThree("Python"));
 
-absolute = (n) => (n < 1 ? n * -1 : n);
+// absolute = (n) => (n < 1 ? n * -1 : n);
+
+isLastCharacterN = (word) =>
+  word.slice(-1) === "n" ? true : false;
