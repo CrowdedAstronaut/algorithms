@@ -722,4 +722,6 @@ The packaging machine is running the getContainer() function to retrieve the con
 
 // console.log(getContainer("Bread"));
 
-[first, second, third, ...other] = [1, 2, 3, 4, 5, 6, 7, 8];
+// [first, second, third, ...other] = [1, 2, 3, 4, 5, 6, 7, 8];
+
+kineticEnergy = (m, v) => Math.round(0.5 * (m * v * v));
