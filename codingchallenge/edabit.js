@@ -742,5 +742,19 @@ The packaging machine is running the getContainer() function to retrieve the con
 //   return wordArr.join("");
 // }
 
-const isPlural = (word) =>
-  word.endsWith("s") ? true : false;
+// const isPlural = (word) =>
+//   word.endsWith("s") ? true : false;
+
+// function firstLast(name) {
+//   const first = name.slice(0, 1);
+//   const last = name.slice(-1);
+//   return first + last;
+// }
+
+const greaterThanOne(frac) {
+  const num = eval(frac);
+  if (num > 1) {
+    return true;
+  }
+  return false;
+}
