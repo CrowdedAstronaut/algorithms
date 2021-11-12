@@ -729,5 +729,15 @@ The packaging machine is running the getContainer() function to retrieve the con
 // endCorona = (recovers, newCases, activeCases) =>
 //   Math.ceil(activeCases / (recovers - newCases));
 
-hasSameBread = (arr1, arr2) =>
-  arr1[0] === arr2[0] && arr1[2] === arr2[2] ? true : false;
+// hasSameBread = (arr1, arr2) =>
+//   arr1[0] === arr2[0] && arr1[2] === arr2[2] ? true : false;
+
+// function arrayValuesTypes(arr) {
+//   return arr.map((item) => typeof item);
+// }
+
+// function sortWord(word) {
+//   const wordArr = word.split("");
+//   wordArr.sort();
+//   return wordArr.join("");
+// }
