@@ -741,3 +741,6 @@ The packaging machine is running the getContainer() function to retrieve the con
 //   wordArr.sort();
 //   return wordArr.join("");
 // }
+
+const isPlural = (word) =>
+  word.endsWith("s") ? true : false;
