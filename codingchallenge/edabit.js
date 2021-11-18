@@ -787,10 +787,26 @@ The packaging machine is running the getContainer() function to retrieve the con
 //   return 6 * n * (n - 1) + 1;
 // }
 
-const checkSquareAndCube = (arr) => {
-  if (Math.sqrt(arr[0]) === Math.cbrt(arr[1])) {
+// const checkSquareAndCube = (arr) => {
+//   if (Math.sqrt(arr[0]) === Math.cbrt(arr[1])) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// };
+
+function fifth() {
+  if (arguments.length < 5) {
+    return "Not enough arguments";
+  } else {
+    return typeof arguments[4];
+  }
+}
+
+function match(s1, s2) {
+  if (s1.toLowerCase() === s2.toLowerCase()) {
     return true;
   } else {
     return false;
   }
-};
+}
