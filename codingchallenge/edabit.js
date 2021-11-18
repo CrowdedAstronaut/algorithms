@@ -834,27 +834,32 @@ The packaging machine is running the getContainer() function to retrieve the con
 //   return `Today, I am feeling ${mood}`;
 // }
 
-function halfQuarterEighth(n) {
-  let arr = [];
-  let half = n / 2;
-  let quarter = n / 4;
-  let eighth = n / 8;
-  arr.push(half, quarter, eighth);
-  return arr;
-}
+// function halfQuarterEighth(n) {
+//   let arr = [];
+//   let half = n / 2;
+//   let quarter = n / 4;
+//   let eighth = n / 8;
+//   arr.push(half, quarter, eighth);
+//   return arr;
+// }
 
-const halfQuarterEighth = (n) => {
-  return [n / 2, n / 4, n / 8];
-};
+// const halfQuarterEighth = (n) => {
+//   return [n / 2, n / 4, n / 8];
+// };
 
-function determineLever(arr) {
-  let lever = null;
-  if (arr[0] === "f") {
-    lever = "third";
-  } else if (arr[1] === "f") {
-    lever = "first";
-  } else {
-    lever = "second";
-  }
-  return `${lever} class lever`;
+// function determineLever(arr) {
+//   let lever = null;
+//   if (arr[0] === "f") {
+//     lever = "third";
+//   } else if (arr[1] === "f") {
+//     lever = "first";
+//   } else {
+//     lever = "second";
+//   }
+//   return `${lever} class lever`;
+// }
+
+function countDs(sentence) {
+  return [...sentence].filter((x) => x == "d" || x == "D")
+    .length;
 }
