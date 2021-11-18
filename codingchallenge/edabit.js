@@ -830,6 +830,19 @@ The packaging machine is running the getContainer() function to retrieve the con
 // const isPlural = (word) =>
 //   word.endsWith("s") ? true : false;
 
-function moodToday(mood = "neutral") {
-  return `Today, I am feeling ${mood}`;
+// function moodToday(mood = "neutral") {
+//   return `Today, I am feeling ${mood}`;
+// }
+
+function halfQuarterEighth(n) {
+  let arr = [];
+  let half = n / 2;
+  let quarter = n / 4;
+  let eighth = n / 8;
+  arr.push(half, quarter, eighth);
+  return arr;
 }
+
+const halfQuarterEighth = (n) => {
+  return [n / 2, n / 4, n / 8];
+};
