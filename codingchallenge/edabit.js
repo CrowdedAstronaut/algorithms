@@ -846,3 +846,15 @@ function halfQuarterEighth(n) {
 const halfQuarterEighth = (n) => {
   return [n / 2, n / 4, n / 8];
 };
+
+function determineLever(arr) {
+  let lever = null;
+  if (arr[0] === "f") {
+    lever = "third";
+  } else if (arr[1] === "f") {
+    lever = "first";
+  } else {
+    lever = "second";
+  }
+  return `${lever} class lever`;
+}
