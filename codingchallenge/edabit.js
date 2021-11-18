@@ -720,6 +720,10 @@ The packaging machine is running the getContainer() function to retrieve the con
 //   return container;
 // }
 
+// function numberArgs(...restArgs) {
+//   return restArgs.length;
+// }
+
 // console.log(getContainer("Bread"));
 
 // [first, second, third, ...other] = [1, 2, 3, 4, 5, 6, 7, 8];
@@ -751,10 +755,30 @@ The packaging machine is running the getContainer() function to retrieve the con
 //   return first + last;
 // }
 
-const greaterThanOne(frac) {
-  const num = eval(frac);
-  if (num > 1) {
-    return true;
-  }
-  return false;
+// const greaterThanOne(frac) {
+//   const num = eval(frac);
+//   if (num > 1) {
+//     return true;
+//   }
+//   return false;
+// }
+
+// function stutter(word) {
+//   let repeat = word.substring(0, 2);
+
+//   return `${repeat}... ${repeat}... ${word}?`;
+// }
+
+// function relationToLuke(name) {
+//   const rels = {
+//     "Darth Vader": "father",
+//     Leia: "sister",
+//     Han: "brother in law",
+//     R2D2: "droid",
+//   };
+//   return `Luke, I am your ${rels[name]}.`;
+// }
+
+function journeyDistance(num) {
+  return num == 3 ? 1 : num > 3 ? (num - 1) / 2 : 0;
 }
