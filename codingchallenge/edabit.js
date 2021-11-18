@@ -783,6 +783,14 @@ The packaging machine is running the getContainer() function to retrieve the con
 //   return num == 3 ? 1 : num > 3 ? (num - 1) / 2 : 0;
 // }
 
-function starNumber(n) {
-  return 6 * n * (n - 1) + 1;
-}
+// function starNumber(n) {
+//   return 6 * n * (n - 1) + 1;
+// }
+
+const checkSquareAndCube = (arr) => {
+  if (Math.sqrt(arr[0]) === Math.cbrt(arr[1])) {
+    return true;
+  } else {
+    return false;
+  }
+};
