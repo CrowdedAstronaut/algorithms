@@ -875,9 +875,22 @@ The packaging machine is running the getContainer() function to retrieve the con
 //   return true;
 // }
 
-function countTrue(arr) {
-  const result = arr.filter((word) => word == true);
-  console.log(result.length);
-}
+// function countTrue(arr) {
+//   const result = arr.filter((word) => word == true);
+//   console.log(result.length);
+// }
 
-countTrue([true, false, false, true, false]);
+// countTrue([true, false, false, true, false]);
+
+// function simpleArraySum(ar) {
+//   // Write your code here
+//   return ar.reduce((a, b) => a + b, 0);
+// }
+
+function aVeryBigSum(ar) {
+  let sum = 0;
+  for (let i = 0; i < ar.length; i++) {
+    sum += ar[i];
+  }
+  return sum;
+}
