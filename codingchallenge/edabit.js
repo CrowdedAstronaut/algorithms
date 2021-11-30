@@ -859,7 +859,25 @@ The packaging machine is running the getContainer() function to retrieve the con
 //   return `${lever} class lever`;
 // }
 
-function countDs(sentence) {
-  return [...sentence].filter((x) => x == "d" || x == "D")
-    .length;
+// function countDs(sentence) {
+//   return [...sentence].filter((x) => x == "d" || x == "D")
+//     .length;
+// }
+
+// function cityFacts(city) {
+//   return `${city.name} has a population of ${city.population} and is situated in ${city.continent}`;
+// }
+
+// function validStrNumber(n) {
+//   if (isNaN(n)) {
+//     return false;
+//   }
+//   return true;
+// }
+
+function countTrue(arr) {
+  const result = arr.filter((word) => word == true);
+  console.log(result.length);
 }
+
+countTrue([true, false, false, true, false]);
