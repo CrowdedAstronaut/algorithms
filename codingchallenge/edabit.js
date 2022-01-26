@@ -895,21 +895,84 @@ The packaging machine is running the getContainer() function to retrieve the con
 //   return sum;
 // }
 
-function diagonalDifference(arr) {
-  let n = arr.length;
-  let diag1 = 0;
-  let diag2 = 0;
-  for (let i = 0; i < n; i++) {
-    for (let j = 0; j < n; j++) {
-      // an element from the main diagonal
-      if (i === j) {
-        diag1 += arr[i][j];
-      }
-      // an element from the counterdiagonal
-      if (i + j === n - 1) {
-        diag2 += arr[i][j];
-      }
-    }
-  }
-  return Math.abs(diag1 - diag2);
-}
+// function diagonalDifference(arr) {
+//   let n = arr.length;
+//   let diag1 = 0;
+//   let diag2 = 0;
+//   for (let i = 0; i < n; i++) {
+//     for (let j = 0; j < n; j++) {
+//       // an element from the main diagonal
+//       if (i === j) {
+//         diag1 += arr[i][j];
+//       }
+// an element from the counterdiagonal
+//       if (i + j === n - 1) {
+//         diag2 += arr[i][j];
+//       }
+//     }
+//   }
+//   return Math.abs(diag1 - diag2);
+// }
+
+// function compareTriplets(a, b) {
+//   const { A, B } = a.reduce(
+//     (acc, cur) => {
+//       const { counter } = acc;
+//       if (a[counter] > b[counter]) {
+//         acc.A++;
+//       } else if (a[counter] < b[counter]) {
+//         acc.B++;
+//       }
+//       acc.counter++;
+//       return acc;
+//     },
+//     { A: 0, B: 0, counter: 0 }
+//   );
+//   return [A, B];
+// }
+
+// "use strict";
+
+// // you can write to stdout for debugging purposes, e.g.
+// console.log("This is a debug message");
+// [];
+
+// function printNames(names, limit) {
+//   return names.reduce((acc, value, index) => {
+//     console.log(acc, value, index);
+//     //   if(index > limit){
+//     //       return acc;
+//     //   }
+//     //   return `${acc}${value}, `;
+//   }, "");
+
+//   let result = ""
+
+//   result += names[0];
+
+//   for (let i = 0; i < names.length; i += 1) {
+//       result += i
+//   }
+
+//   return result;
+// }
+
+// console.log(
+//   printNames(["Alice", "Bob", "Mary", "Ross", "Greg"], 2)
+// );
+
+// let array = ["Woo-Sik", "Ross", "Esin", "Julia", "Steven"];
+// let num = 2;
+
+// function array_concat(array, num) {
+//   let empty = [];
+//   let text = "... and some others";
+//   for (let i = 0; i < num; i++) {
+//     const filtered_array = array[i];
+//     empty.push(filtered_array);
+//   }
+//   console.log(empty + text);
+//   console.log("");
+// }
+
+// array_concat(array, num);
