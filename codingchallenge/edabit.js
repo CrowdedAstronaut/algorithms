@@ -1030,3 +1030,9 @@ The packaging machine is running the getContainer() function to retrieve the con
 // function ctoa(c) {
 //   return c.charCodeAt(0);
 // }
+
+// function invertArray(arr) {
+//   return arr.map((x) => (x === 0 ? x : -x));
+// }
+
+const str = `({ one, two } = { two : 2 }).toString()`;
