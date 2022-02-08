@@ -1005,8 +1005,15 @@ The packaging machine is running the getContainer() function to retrieve the con
 //   } else return false;
 // }
 
-function toNumberArray(arr) {
-  const numberArray = arr.map((value) => Number(value));
+// function toNumberArray(arr) {
+//   const numberArray = arr.map((value) => Number(value));
 
-  console.log(numberArray);
-}
+//   console.log(numberArray);
+// }
+
+// DO NOT change arr
+// DO NOT USE var [lips] = arr[2]
+// "eyes", "nose", and "ears" should not be assigned to anything
+
+// const arr = ["eyes", "nose", "lips", "ears"];
+// var [, , lips] = arr;
