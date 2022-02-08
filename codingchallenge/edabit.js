@@ -1035,4 +1035,4 @@ The packaging machine is running the getContainer() function to retrieve the con
 //   return arr.map((x) => (x === 0 ? x : -x));
 // }
 
-const str = `({ one, two } = { two : 2 }).toString()`;
+const str = `({ one = 1, two } = { two : 2}).toString()`;
