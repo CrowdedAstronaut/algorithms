@@ -1018,7 +1018,11 @@ The packaging machine is running the getContainer() function to retrieve the con
 // const arr = ["eyes", "nose", "lips", "ears"];
 // var [, , lips] = arr;
 
-function height(side) {
-  let h = (side * Math.sqrt(3)) / 2;
-  return `${(h * 10).toFixed(1)} mm`;
-}
+// function height(side) {
+//   let h = (side * Math.sqrt(3)) / 2;
+//   return `${(h * 10).toFixed(1)} mm`;
+// }
+
+// function add(char, str) {
+//   return str.split(" ").join(char);
+// }
