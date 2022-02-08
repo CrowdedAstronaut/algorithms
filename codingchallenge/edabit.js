@@ -977,16 +977,30 @@ The packaging machine is running the getContainer() function to retrieve the con
 
 // array_concat(array, num);
 
-const addUp = (n) => {
-  if (n < 0 || typeof n !== "number") {
-    return "Enter any positive number between 1 and 1000.";
-  } else {
-    let a = 0;
-    let b = 1;
-    for (let i = 0; i < n; i++) {
-      a += b;
-      b += 1;
-    }
-    return a;
-  }
-};
+// const addUp = (n) => {
+//   if (n < 0 || typeof n !== "number") {
+//     return "Enter any positive number between 1 and 1000.";
+//   } else {
+//     let a = 0;
+//     let b = 1;
+//     for (let i = 0; i < n; i++) {
+//       a += b;
+//       b += 1;
+//     }
+//     return a;
+//   }
+// };
+
+// function addUp(num) {
+//   let sum = 0;
+//   for (let i = 1; i <= num; i++) {
+//     sum += i;
+//   }
+//   return sum;
+// }
+
+function equalSlices(total, people, each) {
+  if (total / people >= each || people === 0) {
+    return true;
+  } else return false;
+}
