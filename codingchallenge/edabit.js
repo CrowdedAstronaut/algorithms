@@ -1026,3 +1026,7 @@ The packaging machine is running the getContainer() function to retrieve the con
 // function add(char, str) {
 //   return str.split(" ").join(char);
 // }
+
+// function ctoa(c) {
+//   return c.charCodeAt(0);
+// }
