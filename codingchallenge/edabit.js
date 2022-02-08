@@ -999,8 +999,14 @@ The packaging machine is running the getContainer() function to retrieve the con
 //   return sum;
 // }
 
-function equalSlices(total, people, each) {
-  if (total / people >= each || people === 0) {
-    return true;
-  } else return false;
+// function equalSlices(total, people, each) {
+//   if (total / people >= each || people === 0) {
+//     return true;
+//   } else return false;
+// }
+
+function toNumberArray(arr) {
+  const numberArray = arr.map((value) => Number(value));
+
+  console.log(numberArray);
 }
