@@ -1100,14 +1100,19 @@ The packaging machine is running the getContainer() function to retrieve the con
 //   return shapes[n];
 // }
 
-function damage(damage, speed, time) {
-  if ((damage | speed) < 0) {
-    return "invalid";
-  } else if (time === "hour") {
-    return damage * speed * 3600;
-  } else if (time === "minute") {
-    return damage * speed * 60;
-  } else {
-    return damage * speed;
-  }
+// function damage(damage, speed, time) {
+//   if ((damage | speed) < 0) {
+//     return "invalid";
+//   } else if (time === "hour") {
+//     return damage * speed * 3600;
+//   } else if (time === "minute") {
+//     return damage * speed * 60;
+//   } else {
+//     return damage * speed;
+//   }
+// }
+
+function getMultipliedArr(arr) {
+  let result = arr.map((value) => value * 2);
+  return result;
 }
