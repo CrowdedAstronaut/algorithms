@@ -1049,37 +1049,55 @@ The packaging machine is running the getContainer() function to retrieve the con
 //   return n1 ^ n2;
 // }
 
-function nSidedShape(n) {
-  switch (n) {
-    case 1:
-      return "circle";
-      break;
-    case 2:
-      return "semi-circle";
-      break;
-    case 3:
-      return "triangle";
-      break;
-    case 4:
-      return "square";
-      break;
-    case 5:
-      return "pentagon";
-      break;
-    case 6:
-      return "hexagon";
-      break;
-    case 7:
-      return "heptagon";
-      break;
-    case 8:
-      return "octagon";
-      break;
-    case 9:
-      return "nonagon";
-      break;
-    case 10:
-      return "decagon";
-      break;
-  }
-}
+// function nSidedShape(n) {
+//   switch (n) {
+//     case 1:
+//       return "circle";
+//       break;
+//     case 2:
+//       return "semi-circle";
+//       break;
+//     case 3:
+//       return "triangle";
+//       break;
+//     case 4:
+//       return "square";
+//       break;
+//     case 5:
+//       return "pentagon";
+//       break;
+//     case 6:
+//       return "hexagon";
+//       break;
+//     case 7:
+//       return "heptagon";
+//       break;
+//     case 8:
+//       return "octagon";
+//       break;
+//     case 9:
+//       return "nonagon";
+//       break;
+//     case 10:
+//       return "decagon";
+//       break;
+//   }
+// }
+
+// function nSidedShape(n) {
+//   let shapes = {
+//     1: "circle",
+//     2: "semi-circle",
+//     3: "triangle",
+//     4: "square",
+//     5: "pentagon",
+//     6: "hexagon",
+//     7: "heptagon",
+//     8: "octagon",
+//     9: "nonagon",
+//     10: "decagon",
+//   };
+//   return shapes[n];
+// }
+
+function damage(damage, speed, time) {}
