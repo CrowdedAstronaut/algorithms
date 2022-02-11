@@ -1112,7 +1112,11 @@ The packaging machine is running the getContainer() function to retrieve the con
 //   }
 // }
 
-function getMultipliedArr(arr) {
-  let result = arr.map((value) => value * 2);
-  return result;
-}
+// function getMultipliedArr(arr) {
+//   let result = arr.map((value) => value * 2);
+//   return result;
+// }
+
+// function timeForMilkAndCookies(date) {
+//   return date.getMonth() === 11 && date.getDate() == 24;
+// }
