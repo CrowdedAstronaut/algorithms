@@ -1120,3 +1120,18 @@ The packaging machine is running the getContainer() function to retrieve the con
 // function timeForMilkAndCookies(date) {
 //   return date.getMonth() === 11 && date.getDate() == 24;
 // }
+
+// function detectWord(str) {
+//   str.filter((char) => char.toLowerCase() === true);
+//   console.log(str);
+// }
+
+// detectWord("UcUNFYGaFYFYGtNUH");
+
+function makePlusFunction(baseNum) {
+  //creates new function - takes in baseNum example 5 and
+  function plusBaseNum(arg) {
+    return baseNum + arg;
+  }
+  return plusBaseNum;
+}
