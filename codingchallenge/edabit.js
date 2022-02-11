@@ -1210,3 +1210,10 @@ console.log(output);
 //   };
 //   return generations[x][y];
 // }
+
+function addName(obj, name, value) {
+  const newObject = {
+    [name]: value,
+  };
+  return Object.assign(obj, newObject);
+}
