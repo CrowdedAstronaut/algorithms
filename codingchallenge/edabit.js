@@ -1128,10 +1128,85 @@ The packaging machine is running the getContainer() function to retrieve the con
 
 // detectWord("UcUNFYGaFYFYGtNUH");
 
-function makePlusFunction(baseNum) {
-  //creates new function - takes in baseNum example 5 and
-  function plusBaseNum(arg) {
-    return baseNum + arg;
-  }
-  return plusBaseNum;
+// function makePlusFunction(baseNum) {
+//   //creates new function - takes in baseNum example 5 and
+//   function plusBaseNum(arg) {
+//     return baseNum + arg;
+//   }
+//   return plusBaseNum;
+// }
+
+// -3	great grand father	great grand mother
+// -2	grand father	grand mother
+// -1	father	mother
+// 0	me!	me!
+// 1	son	daughter
+// 2	grand son	grand daughter
+// 3	great grand son	great grand daughter
+
+let person = "Mike";
+let age = 28;
+
+function myTag(strings, personExp, ageExp) {
+  let str0 = strings[0]; // "That "
+  let str1 = strings[1]; // " is a "
+  let str2 = strings[2]; // "."
+
+  // We can even return a string built using a template literal
+  return `${str0}${personExp}${str1}${ageStr}${str2}`;
 }
+
+let output = myTag`That ${person} is a ${age}.`;
+
+console.log(output);
+// That Mike is a youngster.
+
+// function generation(x, y) {
+//   let output;
+//   if (y === "f" && x === -3) {
+//     output = "great grandmother";
+//   } else if (y === "f" && x === -2) {
+//     output = "grandmother";
+//   } else if (y === "f" && x === -1) {
+//     output = "mother";
+//   } else if (y === "f" && x === 0) {
+//     output = "me!";
+//   } else if (y === "f" && x === 1) {
+//     output = "daughter";
+//   } else if (y === "f" && x === 2) {
+//     output = "granddaughter";
+//   } else if (y === "f" && x === 3) {
+//     output = "great granddaughter";
+//   } else if (y === "m" && x === -3) {
+//     output = "great grandfather";
+//   } else if (y === "m" && x === -2) {
+//     output = "grandfather";
+//   } else if (y === "m" && x === -1) {
+//     output = "father";
+//   } else if (y === "m" && x === 0) {
+//     output = "me!";
+//   } else if (y === "m" && x === 1) {
+//     output = "son";
+//   } else if (y === "m" && x === 2) {
+//     output = "grandson";
+//   } else if (y === "m" && x === 3) {
+//     output = "great grandson";
+//   }
+//   return output;
+// }
+
+// function generation(x, y) {
+//   const generations = {
+//     "-3": {
+//       m: "great grandfather",
+//       f: "great grandmother",
+//     },
+//     "-2": { m: "grandfather", f: "grandmother" },
+//     "-1": { m: "father", f: "mother" },
+//     0: { m: "me!", f: "me!" },
+//     1: { m: "son", f: "daughter" },
+//     2: { m: "grandson", f: "granddaughter" },
+//     3: { m: "great grandson", f: "great granddaughter" },
+//   };
+//   return generations[x][y];
+// }
