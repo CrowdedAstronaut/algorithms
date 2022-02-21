@@ -1144,21 +1144,21 @@ The packaging machine is running the getContainer() function to retrieve the con
 // 2	grand son	grand daughter
 // 3	great grand son	great grand daughter
 
-let person = "Mike";
-let age = 28;
+// let person = "Mike";
+// let age = 28;
 
-function myTag(strings, personExp, ageExp) {
-  let str0 = strings[0]; // "That "
-  let str1 = strings[1]; // " is a "
-  let str2 = strings[2]; // "."
+// function myTag(strings, personExp, ageExp) {
+//   let str0 = strings[0]; // "That "
+//   let str1 = strings[1]; // " is a "
+//   let str2 = strings[2]; // "."
 
-  // We can even return a string built using a template literal
-  return `${str0}${personExp}${str1}${ageStr}${str2}`;
-}
+//   // We can even return a string built using a template literal
+//   return `${str0}${personExp}${str1}${ageStr}${str2}`;
+// }
 
-let output = myTag`That ${person} is a ${age}.`;
+// let output = myTag`That ${person} is a ${age}.`;
 
-console.log(output);
+// console.log(output);
 // That Mike is a youngster.
 
 // function generation(x, y) {
@@ -1211,9 +1211,45 @@ console.log(output);
 //   return generations[x][y];
 // }
 
-function addName(obj, name, value) {
-  const newObject = {
-    [name]: value,
-  };
-  return Object.assign(obj, newObject);
-}
+// function addName(obj, name, value) {
+//   const newObject = {
+//     [name]: value,
+//   };
+//   return Object.assign(obj, newObject);
+// }
+
+// function detectWord(str) {
+//   let characters = str.split("");
+//   let filterItems = characters.filter(
+//     (character) => character.toLowerCase() === character
+//   );
+//   return filterItems.join("");
+// }
+// detectWord("UcUNFYGaFYFYGtNUH");
+
+// let char = "a";
+// if (char.toLowerCase() === char) {
+//   console.log("Woo-Sik");
+// } else {
+//   console.log("Ross might be right");
+// }
+// let fruits = [
+//   "apple",
+//   "banana",
+//   "grapes",
+//   "mango",
+//   "orange",
+// ];
+
+/**
+ * Filter array items based on search criteria (query)
+ */
+// function filterItems(arr, query) {
+//   return arr.filter(function (el) {
+//     return (
+//       el.toLowerCase().indexOf(query.toLowerCase()) !== -1
+//     );
+//   });
+// }
+
+// console.log(filterItems(fruits, "ap"));
