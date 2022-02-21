@@ -1253,3 +1253,12 @@ The packaging machine is running the getContainer() function to retrieve the con
 // }
 
 // console.log(filterItems(fruits, "ap"));
+
+function whichIsLarger(f, g) {
+  let [callf, callg] = [f(), g()];
+  return callf > callg
+    ? "f"
+    : callf < callg
+    ? "g"
+    : "neither";
+}
