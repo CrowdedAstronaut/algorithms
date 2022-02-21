@@ -1267,12 +1267,12 @@ The packaging machine is running the getContainer() function to retrieve the con
 //   return x * Math.pow(2, y);
 // }
 
-function numberSquares(n) {
-  let result = 0;
-  let square = 0;
-  for (let i = n; i > 0; i--) {
-    square = i * i;
-    result += square;
-  }
-  return result;
-}
+// function numberSquares(n) {
+//   let result = 0;
+//   let square = 0;
+//   for (let i = n; i > 0; i--) {
+//     square = i * i;
+//     result += square;
+//   }
+//   return result;
+// }
