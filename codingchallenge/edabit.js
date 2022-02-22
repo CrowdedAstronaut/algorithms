@@ -1308,3 +1308,9 @@ The packaging machine is running the getContainer() function to retrieve the con
 // function shiftToRight(x, y) {
 //   return Math.floor(x / Math.pow(2, y));
 // }
+
+let promise = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    resolve("Ross is learning");
+  }, 1000);
+});
