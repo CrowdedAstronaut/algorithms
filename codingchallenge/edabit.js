@@ -1292,8 +1292,19 @@ The packaging machine is running the getContainer() function to retrieve the con
 //   console.log((zero / length).toFixed(6));
 // }
 
-function largestSwap(num) {
-  return (
-    num.toString().charAt(0) >= num.toString().charAt(1)
-  );
-}
+// function largestSwap(num) {
+//   return (
+//     num.toString().charAt(0) >= num.toString().charAt(1)
+//   );
+// }
+
+// function staircase(n) {
+//   // Write your code here
+//   for (let i = 1; i <= n; i++) {
+//     console.log("#".repeat(i).padStart(n));
+//   }
+// }
+
+// function shiftToRight(x, y) {
+//   return Math.floor(x / Math.pow(2, y));
+// }
