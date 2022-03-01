@@ -1319,6 +1319,8 @@ The packaging machine is running the getContainer() function to retrieve the con
 //   return [arr1[0], ...arr2, arr1[1]];
 // }
 
-function redundant(str) {
-  return () => str;
-}
+// function redundant(str) {
+//   return () => str;
+// }
+function perimeter(l, num){
+  return l === "s" ? 4 * num : 6.28 * num
