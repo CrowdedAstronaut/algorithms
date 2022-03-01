@@ -1315,6 +1315,10 @@ The packaging machine is running the getContainer() function to retrieve the con
 //   }, 1000);
 // });
 
-function tuckIn(arr1, arr2) {
-  return [arr1[0], ...arr2, arr1[1]];
+// function tuckIn(arr1, arr2) {
+//   return [arr1[0], ...arr2, arr1[1]];
+// }
+
+function redundant(str) {
+  return () => str;
 }
