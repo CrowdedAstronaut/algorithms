@@ -1351,3 +1351,14 @@ The packaging machine is running the getContainer() function to retrieve the con
 // function toBinary(num) {
 //   return num.toString(2);
 // }
+
+drinks = [
+  { name: "lemonade", price: 50 },
+  { name: "lime", price: 10 },
+];
+
+function sortDrinkByPrice(drinks) {
+  return drinks.sort((a, b) => {
+    return a.price - b.price;
+  });
+}
