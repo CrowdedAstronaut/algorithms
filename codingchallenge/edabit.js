@@ -1322,5 +1322,15 @@ The packaging machine is running the getContainer() function to retrieve the con
 // function redundant(str) {
 //   return () => str;
 // }
-function perimeter(l, num){
-  return l === "s" ? 4 * num : 6.28 * num
+// function perimeter(l, num){
+//   return l === "s" ? 4 * num : 6.28 * num
+
+function determineLever(arr) {
+  if (arr[1] === "f") {
+    return "first class lever";
+  } else if (arr[2] === "f") {
+    return "second class lever";
+  } else {
+    return "third class lever";
+  }
+}
