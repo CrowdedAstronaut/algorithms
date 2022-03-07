@@ -1335,6 +1335,15 @@ The packaging machine is running the getContainer() function to retrieve the con
 //   }
 // }
 
-function binary(decimal) {
-  return parseInt(decimal).toString(2);
+// function binary(decimal) {
+//   return parseInt(decimal).toString(2);
+// }
+
+function whoWinsTonight(coins, space, price, size) {
+  return Math.floor(coins / price) ===
+    Math.floor(space / size)
+    ? "Tie"
+    : Math.floor(coins / price > space / size)
+    ? "Bill"
+    : "Will";
 }
