@@ -1357,8 +1357,27 @@ drinks = [
   { name: "lime", price: 10 },
 ];
 
-function sortDrinkByPrice(drinks) {
-  return drinks.sort((a, b) => {
-    return a.price - b.price;
-  });
+// function sortDrinkByPrice(drinks) {
+//   return drinks.sort((a, b) => {
+//     return a.price - b.price;
+//   });
+// }
+
+// function potatoes(str) {
+//   const count = (str.match(/potato/g) || []).length;
+//   return count;
+// }
+
+// function isFirstSuperior(arr1, arr2) {
+//   return arr1 > arr2;
+// }
+
+function charCount(myChar, str) {
+  let count = 0;
+  for (let i = 0; i < str.length; i++) {
+    if (str.charAt(i) === myChar) {
+      count++;
+    }
+  }
+  return count;
 }
