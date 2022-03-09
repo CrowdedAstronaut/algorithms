@@ -379,7 +379,7 @@
 // // //Create a function that takes a number as an argument and returns "even" for even numbers and "odd" for odd numbers
 // // isEvenOrOdd = (num) => (num % 2 === 0 ? "even" : "odd");
 
-// // //Write a function that accepts base (decimal), height (decimal) and shape ("triangle", "parallelogram") as input and calculates the area of that shape.
+// // //Write a function that accepts base (decimal), height (decimal) and shape ("triangle", "parallelogram") as candles and calculates the area of that shape.
 // // function areaShape(base, height, shape) {
 // //   if (shape === "triangle") {
 // //     return 0.5 * base * height;
@@ -1532,3 +1532,19 @@ The packaging machine is running the getContainer() function to retrieve the con
 // }
 
 // miniMaxSum([1, 2, 3, 4, 5]);
+
+function birthdayCakeCandles(candles) {
+  // Write your code here
+  let count = 0;
+  let max = 0;
+  for (let i = 0; i < candles.length; i++) {
+    let num = candles[i];
+    if (num > max) {
+      max = num;
+      count = 1;
+    } else if (max == num) {
+      count++;
+    }
+  }
+  return count;
+}
