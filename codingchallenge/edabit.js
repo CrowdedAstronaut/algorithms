@@ -1475,6 +1475,17 @@ The packaging machine is running the getContainer() function to retrieve the con
 //   return arr;
 // };
 
-function numberSplit(n) {
-  return [Math.floor(n / 2), Math.ceil(n / 2)];
+// function numberSplit(n) {
+//   return [Math.floor(n / 2), Math.ceil(n / 2)];
+// }
+
+// function sortByLength(arr) {
+//   arr.sort((a, b) => b.length - a.length);
+// }
+
+function highestDigit(number) {
+  let digit = number.toString().split("");
+  return Math.max(...digit);
 }
+
+highestDigit(379);
