@@ -1515,11 +1515,20 @@ The packaging machine is running the getContainer() function to retrieve the con
 //   return obj[n] || 101;
 // }
 
-function getOnlyEvens(nums) {
-  let arr = [];
-  for (let i = 0; i <= nums.length; i += 2)
-    if (nums[i] % 2 == 0) {
-      arr.push(nums[i]);
-    }
-  return arr;
-}
+// function getOnlyEvens(nums) {
+//   let arr = [];
+//   for (let i = 0; i <= nums.length; i += 2)
+//     if (nums[i] % 2 == 0) {
+//       arr.push(nums[i]);
+//     }
+//   return arr;
+// }
+
+// function miniMaxSum(arr) {
+//   let sum = arr.reduce((a, b) => a + b);
+//   let maxVal = Math.max(...arr);
+//   let minVal = Math.min(...arr);
+//   console.log(sum - maxVal + " " + (sum - minVal));
+// }
+
+// miniMaxSum([1, 2, 3, 4, 5]);
