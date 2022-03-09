@@ -1490,15 +1490,36 @@ The packaging machine is running the getContainer() function to retrieve the con
 
 // highestDigit(379);
 
-function countVowels(str) {
-  const vowels = ["a", "e", "i", "o", "u"];
-  let count = 0;
-  for (let i = 0; i < str.length; i++) {
-    for (j of vowels) {
-      if (str[i] === j) {
-        count++;
-      }
+// function countVowels(str) {
+//   const vowels = ["a", "e", "i", "o", "u"];
+//   let count = 0;
+//   for (let i = 0; i < str.length; i++) {
+//     for (j of vowels) {
+//       if (str[i] === j) {
+//         count++;
+//       }
+//     }
+//   }
+//   return count;
+// }
+
+// function error(n) {
+//   let obj = {
+//     1: "Check the fan: e1",
+//     2: "Emergency stop: e2",
+//     3: "Pump Error: e3",
+//     4: "c: e4",
+//     5: "Temperature Sensor Error: e5",
+//   };
+
+//   return obj[n] || 101;
+// }
+
+function getOnlyEvens(nums) {
+  let arr = [];
+  for (let i = 0; i <= nums.length; i += 2)
+    if (nums[i] % 2 == 0) {
+      arr.push(nums[i]);
     }
-  }
-  return count;
+  return arr;
 }
