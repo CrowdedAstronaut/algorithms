@@ -1483,9 +1483,22 @@ The packaging machine is running the getContainer() function to retrieve the con
 //   arr.sort((a, b) => b.length - a.length);
 // }
 
-function highestDigit(number) {
-  let digit = number.toString().split("");
-  return Math.max(...digit);
-}
+// function highestDigit(number) {
+//   let digit = number.toString().split("");
+//   return Math.max(...digit);
+// }
 
-highestDigit(379);
+// highestDigit(379);
+
+function countVowels(str) {
+  const vowels = ["a", "e", "i", "o", "u"];
+  let count = 0;
+  for (let i = 0; i < str.length; i++) {
+    for (j of vowels) {
+      if (str[i] === j) {
+        count++;
+      }
+    }
+  }
+  return count;
+}
