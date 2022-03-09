@@ -1352,10 +1352,10 @@ The packaging machine is running the getContainer() function to retrieve the con
 //   return num.toString(2);
 // }
 
-drinks = [
-  { name: "lemonade", price: 50 },
-  { name: "lime", price: 10 },
-];
+// drinks = [
+//   { name: "lemonade", price: 50 },
+//   { name: "lime", price: 10 },
+// ];
 
 // function sortDrinkByPrice(drinks) {
 //   return drinks.sort((a, b) => {
@@ -1372,12 +1372,25 @@ drinks = [
 //   return arr1 > arr2;
 // }
 
-function charCount(myChar, str) {
-  let count = 0;
-  for (let i = 0; i < str.length; i++) {
-    if (str.charAt(i) === myChar) {
-      count++;
-    }
-  }
-  return count;
-}
+// function charCount(myChar, str) {
+//   let count = 0;
+//   for (let i = 0; i < str.length; i++) {
+//     if (str.charAt(i) === myChar) {
+//       count++;
+//     }
+//   }
+//   return count;
+// }
+
+// function canNest(arr1, arr2) {
+//   if (
+//     Math.min(...arr1) > Math.min(...arr2) &&
+//     Math.max(...arr1) < Math.max(...arr2)
+//   ) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+
+// canNest([1, 2, 3, 4], [0, 6]);
