@@ -1424,3 +1424,15 @@ The packaging machine is running the getContainer() function to retrieve the con
 //     .map((char) => char.repeat(2))
 //     .join("");
 // }
+
+// function seriesResistance(arr) {
+//   let acc = 0;
+//   for (let i = 0; i < arr.length; i++) {
+//     acc += arr[i];
+//   }
+//   if (acc > 1) {
+//     return `${acc} ohms`;
+//   } else {
+//     return `${acc} ohm`;
+//   }
+// }
