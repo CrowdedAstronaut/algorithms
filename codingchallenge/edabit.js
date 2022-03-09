@@ -1437,20 +1437,44 @@ The packaging machine is running the getContainer() function to retrieve the con
 //   }
 // }
 
-class Person {
-  constructor(name, age) {
-    this.name = name;
-    this.age = age;
-  }
+// class Person {
+//   constructor(name, age) {
+//     this.name = name;
+//     this.age = age;
+//   }
 
-  compareAge(other) {
-    // Write code here!
-    if (other.age > this.age) {
-      return `${other.name} is older than me.`;
-    } else if (other.age == this.age) {
-      return `${other.name} is the same age as me.`;
-    } else {
-      return `${other.name} is younger than me.`;
-    }
-  }
+//   compareAge(other) {
+//     // Write code here!
+//     if (other.age > this.age) {
+//       return `${other.name} is older than me.`;
+//     } else if (other.age == this.age) {
+//       return `${other.name} is the same age as me.`;
+//     } else {
+//       return `${other.name} is younger than me.`;
+//     }
+//   }
+// }
+
+// class Person {
+//   constructor(name, age) {
+//     this.name = name;
+//     this.age = age;
+//   }
+
+//   compareAge(other) {
+//     let i = Math.sign(other.age - this.age),
+//       x =
+//         ["the same age as", "older than"][i] ||
+//         "younger than";
+//     return `${other.name} is ${x} me.`;
+//   }
+// }
+
+// const dropRight = (arr, num = 1) => {
+//   for (let i = 0; i < num; i++) arr.pop();
+//   return arr;
+// };
+
+function numberSplit(n) {
+  return [Math.floor(n / 2), Math.ceil(n / 2)];
 }
