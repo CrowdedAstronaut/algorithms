@@ -1407,13 +1407,20 @@ The packaging machine is running the getContainer() function to retrieve the con
 //   return newArr;
 // }
 
-function signYourName(obj) {
-  // write your code here
-  // don't use a return statement
-  Object.seal(obj);
+// function signYourName(obj) {
+//   // write your code here
+//   // don't use a return statement
+//   Object.seal(obj);
 
-  // DON'T CHANGE OR REMOVE THE LINES BELOW
-  obj.yourSignature = "Whatever";
-  obj.spouseSignature = "Nice Try";
-  return obj;
-}
+//   // DON'T CHANGE OR REMOVE THE LINES BELOW
+//   obj.yourSignature = "Whatever";
+//   obj.spouseSignature = "Nice Try";
+//   return obj;
+// }
+
+// function doubleChar(str) {
+//   return str
+//     .split("")
+//     .map((char) => char.repeat(2))
+//     .join("");
+// }
