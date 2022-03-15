@@ -1599,10 +1599,22 @@ console.log(q.getPerimeter());
 //   return parseFloat(Math.PI.toFixed(n));
 // }
 
-function calculateDifference(obj, limit) {
-  let result = 0;
-  for (let i in obj) {
-    result = result + obj[i];
-  }
-  return result - limit;
-}
+// function calculateDifference(obj, limit) {
+//   let result = 0;
+//   for (let i in obj) {
+//     result = result + obj[i];
+//   }
+//   return result - limit;
+// }
+
+// const add_suffix = suffix => word => word + suffix;
+// function crazyfunction(a, b) {
+//   return a ^ b;
+// }
+
+// function bomb(str) {
+//   if (str.toLowerCase().includes("bomb")) {
+//     return "Duck!!!";
+//   }
+//   return "There is no bomb, relax.";
+// }
