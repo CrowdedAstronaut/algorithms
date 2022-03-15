@@ -1646,6 +1646,10 @@ console.log(q.getPerimeter());
 //   }
 // }
 
-function kToK(n, k) {
-  return Math.pow(k, k) == n ? true : false;
-}
+// function kToK(n, k) {
+//   return Math.pow(k, k) == n ? true : false;
+// }
+// const oneOfThese = (a, b, c) => a || b || c;
+
+// const firstOne = (a, b = 0, c = 0, d = 0) =>
+//   a || b || c || "not found";
