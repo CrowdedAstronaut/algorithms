@@ -1691,7 +1691,7 @@ console.log(q.getPerimeter());
 //   return copy;
 // }
 
-function modifyLast(str, n) {
-  return str + str.charAt(str.length - 1).repeat(n - 1);
-}
-modifyLast("Hello", 3);
+// function modifyLast(str, n) {
+//   return str + str.charAt(str.length - 1).repeat(n - 1);
+// }
+// modifyLast("Hello", 3);
