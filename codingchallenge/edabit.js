@@ -1680,3 +1680,6 @@ console.log(q.getPerimeter());
 // const radiansToDegrees = (rad) => (rad * 180) / Math.PI;
 
 // const wordLengths = (arr) => arr.map((word) => word.length);
+
+const volPizza = (radius, height) =>
+  Math.round(Math.pow(radius, 2) * height * Math.PI);
