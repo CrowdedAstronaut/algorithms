@@ -1591,6 +1591,10 @@ console.log(q.getArea());
 console.log(q.getPerimeter());
 */
 
-function sortByLength(arr) {
-  return arr.sort((a, b) => a.length - b.length);
+// function sortByLength(arr) {
+//   return arr.sort((a, b) => a.length - b.length);
+// }
+
+function myPi(n) {
+  return ParseInt(Math.PI.toFixed(n));
 }
