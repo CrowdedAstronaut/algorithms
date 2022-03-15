@@ -1676,3 +1676,5 @@ console.log(q.getPerimeter());
 //     : num % 3 == 0
 //     ? "Hello"
 //     : "World";
+
+const radiansToDegrees = (rad) => (rad * 180) / Math.PI;
