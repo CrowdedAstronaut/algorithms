@@ -1653,3 +1653,11 @@ console.log(q.getPerimeter());
 
 // const firstOne = (a, b = 0, c = 0, d = 0) =>
 //   a || b || c || "not found";
+
+// function toInt(str) {
+//   return parseInt(str);
+// }
+
+// function toStr(int) {
+//   return int.toString();
+// }
