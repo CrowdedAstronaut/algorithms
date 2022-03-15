@@ -1619,10 +1619,33 @@ console.log(q.getPerimeter());
 //   return "There is no bomb, relax.";
 // }
 
-function isAvgWhole(arr) {
-  let sum = 0;
-  for (let i = 0; i < arr.length; i++) {
-    sum = sum + arr[i];
-  }
-  return Number.isInteger(sum / arr.length);
+// function isAvgWhole(arr) {
+//   let sum = 0;
+//   for (let i = 0; i < arr.length; i++) {
+//     sum = sum + arr[i];
+//   }
+//   return Number.isInteger(sum / arr.length);
+// }
+
+// function NOT(n) {
+//   return n === 1 ? 0 : 1;
+// }
+
+// function AND(a, b) {
+//   return a * b;
+// }
+
+// function OR(a, b) {
+//   if (a === 0 && b === 0) {
+//     return 0;
+//   } else if (a === 0 && b === 1) {
+//     return 1;
+//   } else if (a === 1 && b === 0) return 1;
+//   else {
+//     return 1;
+//   }
+// }
+
+function kToK(n, k) {
+  return Math.pow(k, k) == n ? true : false;
 }
