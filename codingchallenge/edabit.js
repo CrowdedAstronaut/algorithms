@@ -1677,4 +1677,6 @@ console.log(q.getPerimeter());
 //     ? "Hello"
 //     : "World";
 
-const radiansToDegrees = (rad) => (rad * 180) / Math.PI;
+// const radiansToDegrees = (rad) => (rad * 180) / Math.PI;
+
+// const wordLengths = (arr) => arr.map((word) => word.length);
