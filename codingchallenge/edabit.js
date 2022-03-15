@@ -1590,3 +1590,7 @@ The packaging machine is running the getContainer() function to retrieve the con
 console.log(q.getArea());
 console.log(q.getPerimeter());
 */
+
+function sortByLength(arr) {
+  return arr.sort((a, b) => a.length - b.length);
+}
