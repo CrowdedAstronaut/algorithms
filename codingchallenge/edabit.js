@@ -1554,6 +1554,39 @@ The packaging machine is running the getContainer() function to retrieve the con
 //   return `${c} ${d} ${a} ${b}`;
 // };
 
-function concat(...args) {
-  return args.flat();
-}
+// function concat(...args) {
+//   return args.flat();
+// }
+
+// class Rectangle {
+//   constructor(radius, sideB) {
+//     this.sideA = sideA;
+//     this.sideB = sideB;
+//   }
+//   getArea() {
+//     return this.sideA * this.sideB;
+//   }
+//   getPerimeter() {
+//     return (this.sideA + this.sideB) * 2;
+//   }
+// }
+
+// class Circle {
+//   // put your code here
+//   constructor(radius) {
+//     this.radius = radius;
+//   }
+//   getArea() {
+//     return this.radius * this.radius * Math.PI;
+//   }
+//   getPerimeter() {
+//     return this.radius * 2 * Math.PI;
+//   }
+// }
+
+// unquote and use run to test these cases:
+
+/*let q = new Circle(4.44);
+console.log(q.getArea());
+console.log(q.getPerimeter());
+*/
