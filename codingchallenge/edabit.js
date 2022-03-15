@@ -1661,3 +1661,18 @@ console.log(q.getPerimeter());
 // function toStr(int) {
 //   return int.toString();
 // }
+
+// function length(s) {
+//   let length = 0;
+//   for (let value of s) {
+//     length++;
+//   }
+//   return length;
+// }
+
+// const helloWorld = (num) =>
+//   num % 15 == 0
+//     ? "Hello World"
+//     : num % 3 == 0
+//     ? "Hello"
+//     : "World";
