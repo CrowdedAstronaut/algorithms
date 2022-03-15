@@ -1681,5 +1681,17 @@ console.log(q.getPerimeter());
 
 // const wordLengths = (arr) => arr.map((word) => word.length);
 
-const volPizza = (radius, height) =>
-  Math.round(Math.pow(radius, 2) * height * Math.PI);
+// const volPizza = (radius, height) =>
+//   Math.round(Math.pow(radius, 2) * height * Math.PI);
+
+// const spaceMeOut = (str) => str.split("").join(" ");
+
+// function makeCopy(obj) {
+//   const copy = Object.assign({}, obj);
+//   return copy;
+// }
+
+function modifyLast(str, n) {
+  return str + str.charAt(str.length - 1).repeat(n - 1);
+}
+modifyLast("Hello", 3);
