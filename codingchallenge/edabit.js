@@ -1533,18 +1533,27 @@ The packaging machine is running the getContainer() function to retrieve the con
 
 // miniMaxSum([1, 2, 3, 4, 5]);
 
-function birthdayCakeCandles(candles) {
-  // Write your code here
-  let count = 0;
-  let max = 0;
-  for (let i = 0; i < candles.length; i++) {
-    let num = candles[i];
-    if (num > max) {
-      max = num;
-      count = 1;
-    } else if (max == num) {
-      count++;
-    }
-  }
-  return count;
+// function birthdayCakeCandles(candles) {
+//   // Write your code here
+//   let count = 0;
+//   let max = 0;
+//   for (let i = 0; i < candles.length; i++) {
+//     let num = candles[i];
+//     if (num > max) {
+//       max = num;
+//       count = 1;
+//     } else if (max == num) {
+//       count++;
+//     }
+//   }
+//   return count;
+// }
+
+// const fixImport = (s) => {
+//   let [a, b, c, d] = s.split(" ");
+//   return `${c} ${d} ${a} ${b}`;
+// };
+
+function concat(...args) {
+  return args.flat();
 }
