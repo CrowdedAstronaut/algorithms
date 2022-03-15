@@ -1595,6 +1595,14 @@ console.log(q.getPerimeter());
 //   return arr.sort((a, b) => a.length - b.length);
 // }
 
-function myPi(n) {
-  return ParseInt(Math.PI.toFixed(n));
+// function myPi(n) {
+//   return parseFloat(Math.PI.toFixed(n));
+// }
+
+function calculateDifference(obj, limit) {
+  let result = 0;
+  for (let i in obj) {
+    result = result + obj[i];
+  }
+  return result - limit;
 }
