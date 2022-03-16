@@ -1736,3 +1736,6 @@ console.log(q.getPerimeter());
 //   }
 //   return `Bu${rofBurp}p`;
 // }
+
+// const intOrString = (param) =>
+//   typeof param === "number" ? "int" : "str";
