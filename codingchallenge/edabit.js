@@ -1720,3 +1720,11 @@ console.log(q.getPerimeter());
 //     return `${this.name} weighs ${this.weight}kg`;
 //   }
 // }
+
+function halloween(dt) {
+  if (dt.getMonth() == 9 && dt.getDate() == 31) {
+    return "Bonfire toffee";
+  } else {
+    return "toffee";
+  }
+}
