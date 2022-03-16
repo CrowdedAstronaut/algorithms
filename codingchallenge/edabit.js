@@ -1721,10 +1721,18 @@ console.log(q.getPerimeter());
 //   }
 // }
 
-function halloween(dt) {
-  if (dt.getMonth() == 9 && dt.getDate() == 31) {
-    return "Bonfire toffee";
-  } else {
-    return "toffee";
-  }
-}
+// function halloween(dt) {
+//   if (dt.getMonth() == 9 && dt.getDate() == 31) {
+//     return "Bonfire toffee";
+//   } else {
+//     return "toffee";
+//   }
+// }
+
+// function longBurp(num) {
+//   let rofBurp = "r";
+//   for (let i = 0; i < num - 1; i++) {
+//     rofBurp += rofBurp[i];
+//   }
+//   return `Bu${rofBurp}p`;
+// }
