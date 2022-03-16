@@ -1739,3 +1739,17 @@ console.log(q.getPerimeter());
 
 // const intOrString = (param) =>
 //   typeof param === "number" ? "int" : "str";
+
+// const isTriangle = (a, b, c) =>
+//   a + b > c && a + c > b && b + c > a ? true : false;
+
+// const programmers = (one, two, three) =>
+//   Math.max(one, two, three) - Math.min(one, two, three);
+
+const evenOrOdd = (arr) => {
+  let sum = 0;
+  for (i = 0; i < arr.length; i++) {
+    sum += arr[i];
+  }
+  sum % 2 == 0 ? "even" : "odd";
+};
