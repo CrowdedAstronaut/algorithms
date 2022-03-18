@@ -1754,4 +1754,23 @@ console.log(q.getPerimeter());
 //   sum % 2 == 0 ? "even" : "odd";
 // };
 
-const calculateFuel = (n) => (n * 10 < 100 ? 100 : n * 10);
+// const calculateFuel = (n) => (n * 10 < 100 ? 100 : n * 10);
+
+// function twoMethods() {
+//   // find and equals are not regular expression methods.  Replace them.
+//   let methodOne = ([hello])\w == "hello";
+//   let methodTwo = [hello] === "hello" ? true : false; // returns a boolean
+//   return methodOne && methodTwo;
+// }
+
+// function arrayValuesTypes(arr) {
+//   return arr.map((x) => typeof x);
+// }
+
+const elementSet = (s) => {
+  let array = [...s];
+  for (let i = 0; i < array.length; i++) {
+    const element = array[i];
+    return element;
+  }
+};
