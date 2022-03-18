@@ -1767,10 +1767,21 @@ console.log(q.getPerimeter());
 //   return arr.map((x) => typeof x);
 // }
 
-const elementSet = (s) => {
-  let array = [...s];
-  for (let i = 0; i < array.length; i++) {
-    const element = array[i];
-    return element;
-  }
-};
+// const elementSet = (s) => {
+//   let array = [...s];
+//   for (let i = 0; i < array.length; i++) {
+//     const element = array[i];
+//     return element;
+//   }
+// };
+
+// function createID(firstname, lastname) {
+//   let partOne = firstname.slice(0, 1).toLowerCase();
+//   let partTwo = lastname
+//     .slice(0, 3)
+//     .charAt(0)
+//     .toUpperCase();
+//   let partThree = lastname.substring(1, 3).toLowerCase();
+
+//   return `${partOne}${partTwo}${partThree}`;
+// }
