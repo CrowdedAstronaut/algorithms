@@ -1802,13 +1802,16 @@ console.log(q.getPerimeter());
 //   return sum;
 // }
 
-function countClaps(str) {
-  let count = 0;
-  for (let i = 0; i < str.length; i++) {
-    const element = str[i];
-    if (element === "C") {
-      count += 1;
-    }
-  }
-  return count;
-}
+// function countClaps(str) {
+//   let count = 0;
+//   for (let i = 0; i < str.length; i++) {
+//     const element = str[i];
+//     if (element === "C") {
+//       count += 1;
+//     }
+//   }
+//   return count;
+// }
+
+const isInRange = (num, range) =>
+  num >= range.min && num <= range.max ? true : false;
