@@ -1899,11 +1899,20 @@ console.log(q.getPerimeter());
 //   }
 // }
 
-function addIndexes(arr) {
-  let newArray = [];
-  for (let i = 0; i < array.length; i++) {
-    const element = array[i];
-    newArray.push(element + i);
-  }
-  return newArray;
-}
+// function addIndexes(arr) {
+//   let newArray = [];
+//   for (let i = 0; i < arr.length; i++) {
+//     const element = arr[i];
+//     newArray.push(element + i);
+//   }
+//   return newArray;
+// }
+
+const pHName = (pH) =>
+  pH > 7 && pH < 14
+    ? "alkaline"
+    : pH < 7 && pH > 0
+    ? "acidic"
+    : pH == 7
+    ? "neutral"
+    : "invalid";
