@@ -1935,7 +1935,9 @@ console.log(q.getPerimeter());
 //     ? rangeLow
 //     : rangeHigh;
 
-const binaryToDecimal = (arr) => {
-  const binaryString = arr.join("");
-  return parseInt(binaryString, 2);
-};
+// const binaryToDecimal = (arr) => {
+//   const binaryString = arr.join("");
+//   return parseInt(binaryString, 2);
+// };
+
+const toScottishScreaming = (s) => s.toUpperCase().replace(/[AIOU]/g, "E");
