@@ -1780,8 +1780,24 @@ console.log(q.getPerimeter());
 //   let partTwo = lastname
 //     .slice(0, 3)
 //     .charAt(0)
-//     .toUpperCase();
+//     .tolowerCase();
 //   let partThree = lastname.substring(1, 3).toLowerCase();
 
 //   return `${partOne}${partTwo}${partThree}`;
 // }
+
+// const getCase = (s) =>
+//   s === s.toUpperCase()
+//     ? "upper"
+//     : s === s.toLowerCase()
+//     ? "lower"
+//     : "mixed";
+
+function getSumOfItems(arr) {
+  let sum = 0;
+  for (let i = 0; i < arr.length; i++) {
+    const element = arr[i];
+    sum = sum += element;
+  }
+  return sum;
+}
