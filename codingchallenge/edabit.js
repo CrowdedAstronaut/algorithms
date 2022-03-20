@@ -1865,3 +1865,10 @@ console.log(q.getPerimeter());
 //   arr.push(num1);
 //   return parseFloat(arr.join("")) * Math.sign(num);
 // }
+
+function isBoiling(temp) {
+  return (
+    (temp.slice(-1) == "F" && temp.slice(0, -1) >= 212) ||
+    (temp.slice(-1) == "C" && temp.slice(0, -1) >= 100)
+  );
+}
