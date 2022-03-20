@@ -1793,11 +1793,22 @@ console.log(q.getPerimeter());
 //     ? "lower"
 //     : "mixed";
 
-function getSumOfItems(arr) {
-  let sum = 0;
-  for (let i = 0; i < arr.length; i++) {
-    const element = arr[i];
-    sum = sum += element;
+// function getSumOfItems(arr) {
+//   let sum = 0;
+//   for (let i = 0; i < arr.length; i++) {
+//     const element = arr[i];
+//     sum = sum += element;
+//   }
+//   return sum;
+// }
+
+function countClaps(str) {
+  let count = 0;
+  for (let i = 0; i < str.length; i++) {
+    const element = str[i];
+    if (element === "C") {
+      count += 1;
+    }
   }
-  return sum;
+  return count;
 }
