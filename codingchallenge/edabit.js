@@ -1835,3 +1835,11 @@ console.log(q.getPerimeter());
 //     : num1 / num2 === 24
 //     ? "divided"
 //     : null;
+
+// function nTablesPlusOne(n) {
+//   const result = [];
+//   for (let i = 1; i <= 10; i++) {
+//     result.push(n * i + 1);
+//   }
+//   return result.toString();
+// }
