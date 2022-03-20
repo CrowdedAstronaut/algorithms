@@ -1813,5 +1813,25 @@ console.log(q.getPerimeter());
 //   return count;
 // }
 
-const isInRange = (num, range) =>
-  num >= range.min && num <= range.max ? true : false;
+// const isInRange = (num, range) =>
+//   num >= range.min && num <= range.max ? true : false;
+
+// function distanceHome(arr) {
+//   let distance = 0;
+//   for (let i = 0; i < arr.length; i++) {
+//     const element = arr[i];
+//     distance = distance + element;
+//   }
+//   return Math.abs(distance);
+// }
+
+// const operation = (num1, num2) =>
+//   num1 + num2 === 24
+//     ? "added"
+//     : num1 - num2 === 24
+//     ? "subtracted"
+//     : num1 * num2 === 24
+//     ? "multiplied"
+//     : num1 / num2 === 24
+//     ? "divided"
+//     : null;
