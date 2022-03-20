@@ -1918,12 +1918,24 @@ console.log(q.getPerimeter());
 //     : "invalid";
 
 // Point class
-class Point {
-  constructor(x, y) {
-    this.x = x;
-    this.y = y;
-  }
-  toString() {
-    return `[x=${this.x}, y=${this.y}]`;
-  }
-}
+// class Point {
+//   constructor(x, y) {
+//     this.x = x;
+//     this.y = y;
+//   }
+//   toString() {
+//     return `[x=${this.x}, y=${this.y}]`;
+//   }
+// }
+
+// const limitNumber = (num, rangeLow, rangeHigh) =>
+//   num > rangeLow && num < rangeHigh
+//     ? num
+//     : num < rangeLow
+//     ? rangeLow
+//     : rangeHigh;
+
+const binaryToDecimal = (arr) => {
+  const binaryString = arr.join("");
+  return parseInt(binaryString, 2);
+};
