@@ -1908,11 +1908,22 @@ console.log(q.getPerimeter());
 //   return newArray;
 // }
 
-const pHName = (pH) =>
-  pH > 7 && pH < 14
-    ? "alkaline"
-    : pH < 7 && pH > 0
-    ? "acidic"
-    : pH == 7
-    ? "neutral"
-    : "invalid";
+// const pHName = (pH) =>
+//   pH > 7 && pH < 14
+//     ? "alkaline"
+//     : pH < 7 && pH > 0
+//     ? "acidic"
+//     : pH == 7
+//     ? "neutral"
+//     : "invalid";
+
+// Point class
+class Point {
+  constructor(x, y) {
+    this.x = x;
+    this.y = y;
+  }
+  toString() {
+    return `[x=${this.x}, y=${this.y}]`;
+  }
+}
