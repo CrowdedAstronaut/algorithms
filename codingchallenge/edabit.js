@@ -1843,3 +1843,14 @@ console.log(q.getPerimeter());
 //   }
 //   return result.toString();
 // }
+
+function filterArray(arr) {
+  let integerArray = [];
+  for (let i = 0; i < arr.length; i++) {
+    const element = arr[i];
+    if (Number.isInteger(element)) {
+      integerArray.push(element);
+    }
+  }
+  return integerArray;
+}
