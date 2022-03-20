@@ -1879,3 +1879,6 @@ console.log(q.getPerimeter());
 
 const weightAllowed = (car, passengers, maxWeight) =>
   car + passengers.reduce((x, y) => x + y) < 2.2 * maxWeight;
+
+const skipTooMuchSugarDrinks = (drinks) =>
+  drinks.filter((drink) => drink !== "cola" && drink !== "fanta");
