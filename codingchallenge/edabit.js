@@ -1876,3 +1876,6 @@ console.log(q.getPerimeter());
 // function addUpTo(n) {
 //   return (n * (n + 1)) / 2;
 // }
+
+const weightAllowed = (car, passengers, maxWeight) =>
+  car + passengers.reduce((x, y) => x + y) < 2.2 * maxWeight;
