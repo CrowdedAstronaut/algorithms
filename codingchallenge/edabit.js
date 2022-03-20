@@ -1844,13 +1844,24 @@ console.log(q.getPerimeter());
 //   return result.toString();
 // }
 
-function filterArray(arr) {
-  let integerArray = [];
-  for (let i = 0; i < arr.length; i++) {
-    const element = arr[i];
-    if (Number.isInteger(element)) {
-      integerArray.push(element);
-    }
-  }
-  return integerArray;
-}
+// function filterArray(arr) {
+//   let integerArray = [];
+//   for (let i = 0; i < arr.length; i++) {
+//     const element = arr[i];
+//     if (Number.isInteger(element)) {
+//       integerArray.push(element);
+//     }
+//   }
+//   return integerArray;
+// }
+
+// function rotateMaxNumber(num) {
+//   let arr = num.toString().split("");
+//   let num1 = arr.charAt(0);
+//   let num2 = arr.charAt(arr.length - 1);
+//   arr.shift();
+//   arr.pop();
+//   arr.unshift(num2);
+//   arr.push(num1);
+//   return parseFloat(arr.join("")) * Math.sign(num);
+// }
