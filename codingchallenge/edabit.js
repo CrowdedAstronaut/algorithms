@@ -360,7 +360,7 @@
 // //   return template;
 // // }
 
-// // //Given an index and an array, return the value of the array with the given index.
+// // //Given an i and an array, return the value of the array with the given index.
 
 // // isOdd = (num) => (num % 2 === 0 ? false : true);
 
@@ -1866,9 +1866,13 @@ console.log(q.getPerimeter());
 //   return parseFloat(arr.join("")) * Math.sign(num);
 // }
 
-function isBoiling(temp) {
-  return (
-    (temp.slice(-1) == "F" && temp.slice(0, -1) >= 212) ||
-    (temp.slice(-1) == "C" && temp.slice(0, -1) >= 100)
-  );
-}
+// function isBoiling(temp) {
+//   return (
+//     (temp.slice(-1) == "F" && temp.slice(0, -1) >= 212) ||
+//     (temp.slice(-1) == "C" && temp.slice(0, -1) >= 100)
+//   );
+// }
+
+// function addUpTo(n) {
+//   return (n * (n + 1)) / 2;
+// }
