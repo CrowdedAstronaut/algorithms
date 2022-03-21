@@ -2052,3 +2052,36 @@ console.log(q.getPerimeter());
 // };
 
 // const kmtomiles = (kilometers) => Number((kilometers * 0.621371).toFixed(5));
+
+// const repetition = (n, txt) =>
+//   n == 1 ? txt : txt.concat(repetition(n - 1, txt));
+
+// const repetition = (txt, n) =>
+//   n < 0 ? "" : n === 1 ? txt : txt + repetition(txt, n - 1);
+
+// function rangeOfNum(start, end) {
+//   let newArr = [];
+//   if (start == end) return newArr;
+//   for (let i = start + 1; i < end; i++) {
+//     newArr.push(i);
+//   }
+//   return newArr;
+// }
+
+// function timeConversion(s) {
+//   const arr = s.slice(0, 8).split(":");
+//   arr[0] =
+//     s.indexOf("PM") > -1
+//       ? arr[0] == 12
+//         ? "12"
+//         : Number(arr[0]) + 12
+//       : arr[0] == 12
+//       ? "00"
+//       : arr[0];
+//   return arr.join(":");
+// }
+
+function reverseArray(a) {
+  // Write your code here
+  return a.reverse();
+}
