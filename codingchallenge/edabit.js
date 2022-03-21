@@ -1940,6 +1940,7 @@ console.log(q.getPerimeter());
 //   return parseInt(binaryString, 2);
 // };
 
+<<<<<<< HEAD
 // const toScottishScreaming = (s) => s.toUpperCase().replace(/[AIOU]/g, "E");
 // =======
 // function addOddToN(n) {
@@ -2006,3 +2007,19 @@ console.log(q.getPerimeter());
 //   }
 //   return result;
 // }
+=======
+const toScottishScreaming = (s) => s.toUpperCase().replace(/[AIOU]/g, "E");
+
+sumFive([10, 12, 28, 47, 55, 100]);
+
+const sumFive = (arr) => {
+  let sum = 0;
+  for (let i = 0; i < arr.length; i++) {
+    const element = arr[i];
+    if (element > 5) {
+      sum = sum += element;
+    }
+  }
+  return sum;
+};
+>>>>>>> b0067d5 (Pulling for rebase)
