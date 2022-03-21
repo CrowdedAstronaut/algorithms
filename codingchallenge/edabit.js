@@ -1940,7 +1940,6 @@ console.log(q.getPerimeter());
 //   return parseInt(binaryString, 2);
 // };
 
-<<<<<<< HEAD
 // const toScottishScreaming = (s) => s.toUpperCase().replace(/[AIOU]/g, "E");
 // =======
 // function addOddToN(n) {
@@ -1981,12 +1980,12 @@ console.log(q.getPerimeter());
 
 // const integerBoolean = n => [...n].map(a => a == 1);
 
-  // const areaOfHexagon = (x) => {
-  //   let number = Number(
-  //     ((3 * Math.sqrt(3) * Math.pow(x, 2)) / 2).toFixed(1)
-  //   );
-  //   return number > 0 ? number : null;
-  // };
+// const areaOfHexagon = (x) => {
+//   let number = Number(
+//     ((3 * Math.sqrt(3) * Math.pow(x, 2)) / 2).toFixed(1)
+//   );
+//   return number > 0 ? number : null;
+// };
 
 // const getAbsSum = (arr) => {
 //   let newArray = arr.map((item) => Math.abs(item));
@@ -2007,7 +2006,7 @@ console.log(q.getPerimeter());
 //   }
 //   return result;
 // }
-=======
+
 // const toScottishScreaming = (s) => s.toUpperCase().replace(/[AIOU]/g, "E");
 
 // sumFive([10, 12, 28, 47, 55, 100]);
@@ -2036,6 +2035,20 @@ console.log(q.getPerimeter());
 //   return x > 0 ? number : null;
 // };
 
-function nextSquare(n) {
-	
-}
+// const nextSquare = (n) => {
+//   const root = Math.sqrt(n);
+//   return Number.isInteger(root) ? (root + 1) ** 2 : null;
+// };
+
+// const scoreCalculator = (easy, med, hard) => {
+//   let e = easy * 5;
+//   let m = med * 10;
+//   let h = hard * 20;
+//   if (easy < 0 || med < 0 || hard < 0) {
+//     return "invalid";
+//   } else {
+//     return Number(`${e + m + h}`);
+//   }
+// };
+
+// const kmtomiles = (kilometers) => Number((kilometers * 0.621371).toFixed(5));
