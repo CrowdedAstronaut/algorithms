@@ -2008,18 +2008,24 @@ console.log(q.getPerimeter());
 //   return result;
 // }
 =======
-const toScottishScreaming = (s) => s.toUpperCase().replace(/[AIOU]/g, "E");
+// const toScottishScreaming = (s) => s.toUpperCase().replace(/[AIOU]/g, "E");
 
-sumFive([10, 12, 28, 47, 55, 100]);
+// sumFive([10, 12, 28, 47, 55, 100]);
 
-const sumFive = (arr) => {
-  let sum = 0;
-  for (let i = 0; i < arr.length; i++) {
-    const element = arr[i];
-    if (element > 5) {
-      sum = sum += element;
-    }
-  }
-  return sum;
-};
->>>>>>> b0067d5 (Pulling for rebase)
+// const sumFive = (arr) => {
+//   let sum = 0;
+//   for (let i = 0; i < arr.length; i++) {
+//     const element = arr[i];
+//     if (element > 5) {
+//       sum = sum += element;
+//     }
+//   }
+//   return sum;
+// };
+// >>>>>>> b0067d5 (Pulling for rebase)
+
+function findDifference(a, b) {
+  let firstValue = a.reduce((a, b) => a * b);
+  let secondValue = b.reduce((a, b) => a * b);
+  return  Number(Math.abs(`${firstValue- secondValue}`))
+}
