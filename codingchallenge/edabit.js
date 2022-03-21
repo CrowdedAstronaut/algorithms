@@ -1996,3 +1996,5 @@ const secret = (text) => {
   const [a, b] = text.split`*`;
   return `<${a}></${a}>`.repeat(b);
 };
+
+const stringInt = (str) => Number(str);
