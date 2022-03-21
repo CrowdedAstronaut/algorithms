@@ -1877,7 +1877,6 @@ console.log(q.getPerimeter());
 //   return (n * (n + 1)) / 2;
 // }
 
-<<<<<<< HEAD
 // const weightAllowed = (car, passengers, maxWeight) =>
 //   car + passengers.reduce((x, y) => x + y) < 2.2 * maxWeight;
 
@@ -1941,8 +1940,8 @@ console.log(q.getPerimeter());
 //   return parseInt(binaryString, 2);
 // };
 
-const toScottishScreaming = (s) => s.toUpperCase().replace(/[AIOU]/g, "E");
-=======
+// const toScottishScreaming = (s) => s.toUpperCase().replace(/[AIOU]/g, "E");
+// =======
 // function addOddToN(n) {
 //   let sum = 0;
 //   for (let i = 1; i <= n; i += 2) {
@@ -1961,23 +1960,39 @@ const toScottishScreaming = (s) => s.toUpperCase().replace(/[AIOU]/g, "E");
 //   toString() {
 //     return `[x=${this.x}, y=${this.y}, width=${this.width}, height=${this.height}]`;
 //   }
-// }
->>>>>>> df6ae98 (Solved Rectangle class)
-
 
 // function otherSides(length) {
 //     let longest = length* Math.sqrt(3)
 // 	return [length *2,Number(longest.toFixed(2))]
 // }
 
-function integerBoolean(n) {
-    let arr = []
-for (let i = 0; i < n.length; i++) {
-    const element = n[i];
-    if(element === "1"){
-        arr.push(true)
-    } else
-    arr.push(false)
-}
-return arr;
-}
+// function integerBoolean(n) {
+//     let arr = []
+// for (let i = 0; i < n.length; i++) {
+//     const element = n[i];
+//     if(element === "1"){
+//         arr.push(true)
+//     } else
+//     arr.push(false)
+// }
+// return arr;
+// }
+
+// const integerBoolean = n => [...n].map(a => a == 1);
+
+// const areaOfHexagon = (x) => {
+//   let number = Number(
+//     ((3 * Math.sqrt(3) * Math.pow(x, 2)) / 2).toFixed(1)
+//   );
+//   return number > 0 ? number : null;
+// };
+
+// const getAbsSum = (arr) => {
+//   let newArray = arr.map((item) => Math.abs(item));
+//   return newArray.reduce((a, b) => a + b);
+// };
+
+const secret = (text) => {
+  const [a, b] = text.split`*`;
+  return `<${a}></${a}>`.repeat(b);
+};
