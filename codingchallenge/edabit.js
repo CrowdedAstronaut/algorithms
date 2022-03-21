@@ -1963,3 +1963,9 @@ const toScottishScreaming = (s) => s.toUpperCase().replace(/[AIOU]/g, "E");
 //   }
 // }
 >>>>>>> df6ae98 (Solved Rectangle class)
+
+
+// function otherSides(length) {
+//     let longest = length* Math.sqrt(3)
+// 	return [length *2,Number(longest.toFixed(2))]
+// }
