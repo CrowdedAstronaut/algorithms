@@ -1992,9 +1992,17 @@ console.log(q.getPerimeter());
 //   return newArray.reduce((a, b) => a + b);
 // };
 
-const secret = (text) => {
-  const [a, b] = text.split`*`;
-  return `<${a}></${a}>`.repeat(b);
-};
+// const secret = (text) => {
+//   const [a, b] = text.split`*`;
+//   return `<${a}></${a}>`.repeat(b);
+// };
 
-const stringInt = (str) => Number(str);
+// const stringInt = (str) => Number(str);
+
+// function arrayOfMultiples(num, length) {
+//   let result = [];
+//   for (let i = 1; i <= length; i++) {
+//     result.push(num * i);
+//   }
+//   return result;
+// }
