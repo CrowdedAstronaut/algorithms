@@ -1877,6 +1877,7 @@ console.log(q.getPerimeter());
 //   return (n * (n + 1)) / 2;
 // }
 
+<<<<<<< HEAD
 // const weightAllowed = (car, passengers, maxWeight) =>
 //   car + passengers.reduce((x, y) => x + y) < 2.2 * maxWeight;
 
@@ -1941,3 +1942,24 @@ console.log(q.getPerimeter());
 // };
 
 const toScottishScreaming = (s) => s.toUpperCase().replace(/[AIOU]/g, "E");
+=======
+// function addOddToN(n) {
+//   let sum = 0;
+//   for (let i = 1; i <= n; i += 2) {
+//     sum += i;
+//   }
+//   return sum;
+// }
+
+// class Rectangle {
+//   constructor(x, y, width, height) {
+//     this.x = x;
+//     this.y = y;
+//     this.width = width;
+//     this.height = height;
+//   }
+//   toString() {
+//     return `[x=${this.x}, y=${this.y}, width=${this.width}, height=${this.height}]`;
+//   }
+// }
+>>>>>>> df6ae98 (Solved Rectangle class)
