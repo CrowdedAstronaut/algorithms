@@ -1969,3 +1969,15 @@ const toScottishScreaming = (s) => s.toUpperCase().replace(/[AIOU]/g, "E");
 //     let longest = length* Math.sqrt(3)
 // 	return [length *2,Number(longest.toFixed(2))]
 // }
+
+function integerBoolean(n) {
+    let arr = []
+for (let i = 0; i < n.length; i++) {
+    const element = n[i];
+    if(element === "1"){
+        arr.push(true)
+    } else
+    arr.push(false)
+}
+return arr;
+}
