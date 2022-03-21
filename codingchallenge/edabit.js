@@ -1981,12 +1981,12 @@ console.log(q.getPerimeter());
 
 // const integerBoolean = n => [...n].map(a => a == 1);
 
-// const areaOfHexagon = (x) => {
-//   let number = Number(
-//     ((3 * Math.sqrt(3) * Math.pow(x, 2)) / 2).toFixed(1)
-//   );
-//   return number > 0 ? number : null;
-// };
+  // const areaOfHexagon = (x) => {
+  //   let number = Number(
+  //     ((3 * Math.sqrt(3) * Math.pow(x, 2)) / 2).toFixed(1)
+  //   );
+  //   return number > 0 ? number : null;
+  // };
 
 // const getAbsSum = (arr) => {
 //   let newArray = arr.map((item) => Math.abs(item));
@@ -2024,8 +2024,18 @@ console.log(q.getPerimeter());
 // };
 // >>>>>>> b0067d5 (Pulling for rebase)
 
-function findDifference(a, b) {
-  let firstValue = a.reduce((a, b) => a * b);
-  let secondValue = b.reduce((a, b) => a * b);
-  return  Number(Math.abs(`${firstValue- secondValue}`))
+// function findDifference(a, b) {
+//   let firstValue = a.reduce((a, b) => a * b);
+//   let secondValue = b.reduce((a, b) => a * b);
+//   return  Number(Math.abs(`${firstValue- secondValue}`))
+// }
+// const areaOfHexagon = (x) => {
+//   let number = Number(
+//     ((3 * Math.sqrt(3) * Math.pow(x, 2)) / 2).toFixed(1)
+//   );
+//   return x > 0 ? number : null;
+// };
+
+function nextSquare(n) {
+	
 }
