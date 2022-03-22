@@ -2132,4 +2132,16 @@ fill([4, 6, 8, 10], "*", 1, 3) ➞ [4, "*", "*", 10]
 
 // const forbiddenLetter = (char, arr) =>
 //   arr.every((word) => !word.includes(char));
-const wumbo = (str) => str.replace(/M/g, "W");
+// const wumbo = (str) => str.replace(/M/g, "W");
+
+makeRug(3, 5) ➞ [
+  "#####",
+  "#####",
+  "#####"
+]
+
+function makeRug(m, n, s = "#"){
+  let arr = [];
+  for (let i = 0; i < m; i++) a.push(s.repeat(n))
+  return arr;
+}
