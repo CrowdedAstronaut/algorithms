@@ -2122,10 +2122,13 @@ fill([4, 6, 8, 10], "*", 1, 3) ➞ [4, "*", "*", 10]
 // const randomInt = (min, max) =>
 //   parseInt(Math.random() * (max - min) + min);
 
-const sumCubes = (n) => {
-  let sum = 0;
-  for (let i = 0; i <= n; i++) {
-    sum += i * i * i;
-  }
-  return sum;
-};
+// const sumCubes = (n) => {
+//   let sum = 0;
+//   for (let i = 0; i <= n; i++) {
+//     sum += i * i * i;
+//   }
+//   return sum;
+// };
+
+const forbiddenLetter = (char, arr) =>
+  arr.every((word) => !word.includes(char));
