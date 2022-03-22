@@ -2109,9 +2109,12 @@ fill(Array(3), 2) ➞ [2, 2, 2]
 
 fill([4, 6, 8, 10], "*", 1, 3) ➞ [4, "*", "*", 10]
  */
-const fill = (arr, value, start = 0, end = arr.length) => {
-  for (let i = start; i < end; i++) {
-    arr[i] = value;
-  }
-  return arr;
-};
+// const fill = (arr, value, start = 0, end = arr.length) => {
+//   for (let i = start; i < end; i++) {
+//     arr[i] = value;
+//   }
+//   return arr;
+// };
+
+const findDigitAmount = (num) =>
+  Number(num.toString().length);
