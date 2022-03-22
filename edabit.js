@@ -2130,5 +2130,6 @@ fill([4, 6, 8, 10], "*", 1, 3) ➞ [4, "*", "*", 10]
 //   return sum;
 // };
 
-const forbiddenLetter = (char, arr) =>
-  arr.every((word) => !word.includes(char));
+// const forbiddenLetter = (char, arr) =>
+//   arr.every((word) => !word.includes(char));
+const wumbo = (str) => str.replace(/M/g, "W");
