@@ -2116,5 +2116,8 @@ fill([4, 6, 8, 10], "*", 1, 3) ➞ [4, "*", "*", 10]
 //   return arr;
 // };
 
-const findDigitAmount = (num) =>
-  Number(num.toString().length);
+// const findDigitAmount = (num) =>
+//   Number(num.toString().length);
+
+// const randomInt = (min, max) =>
+//   parseInt(Math.random() * (max - min) + min);
