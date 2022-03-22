@@ -2007,6 +2007,7 @@ console.log(q.getPerimeter());
 //   return result;
 // }
 
+<<<<<<< HEAD:codingchallenge/edabit.js
 // const toScottishScreaming = (s) => s.toUpperCase().replace(/[AIOU]/g, "E");
 
 // sumFive([10, 12, 28, 47, 55, 100]);
@@ -2085,3 +2086,9 @@ function reverseArray(a) {
   // Write your code here
   return a.reverse();
 }
+=======
+const sortNumsAscending = (arr) =>
+  arr === null || arr === [] || arr == undefined
+    ? []
+    : arr.sort((a, b) => a - b);
+>>>>>>> 04a1a9f (Changed algorithim folder structure):edabit.js
