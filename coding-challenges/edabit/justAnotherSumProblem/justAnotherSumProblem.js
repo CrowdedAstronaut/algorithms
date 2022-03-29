@@ -7,3 +7,13 @@ function justAnotherSumProblem(a, b) {
   }
   return array.reduce((acc, val) => acc + val);
 }
+
+//Recursion solution from Edabit
+function justAnotherSumProblem(a, b) {
+  let max = Math.max(a, b);
+  let min = Math.min(a, b);
+  if (min == max) {
+    return max;
+  }
+  return min + justAnotherSumProblem(min + 1, max);
+}
