@@ -10,3 +10,9 @@ function dartsScoring(x, y) {
     return 10;
   }
 }
+
+//Edabit solution
+function dartsScoring(x, y) {
+  let r = Math.sqrt(x ** 2 + y ** 2);
+  return r <= 1 ? 10 : r <= 5 ? 5 : r <= 10 ? 1 : 0;
+}
