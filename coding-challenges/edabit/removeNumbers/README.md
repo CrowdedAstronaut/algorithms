@@ -1,26 +1,12 @@
-### Human, Cat and Dog Years 🧑🏻🐱🐶
+### Buggy Code (Part 6)
 
-Mubashir has a cat and a dog. He purchased both of them at the same time humanYears ago.
+Mubashir wants to remove numbers from a given string!
 
-Create a function which takes an argument of humanYears and returns [humanYears, catYears, dogYears] array.
+Help him by fixing the code in the code tab to pass this challenge. Look at the examples below to get an idea of what the function should do.
 
-Human Years
-Human Years >= 1
-Human Years are whole numbers only.
-Cat Years
-15 cat years for first year.
-+9 cat years for second year.
-+4 cat years for each year after that.
-Dog Years
-15 dog years for first year
-+9 dog years for second year
-+5 dog years for each year after that
 Examples
+removeNumbers("mubashir1") ➞ "mubashir"
 
-```
-calculateYears(1) ➞ [1, 15, 15]
+removeNumbers("12ma23tt") ➞ "matt"
 
-calculateYears(2) ➞ [2, 24, 24]
-
-calculateYears(10) ➞ [10, 56, 64]
-```
+removeNumbers("e1d2a3b4i5t6") ➞ "edabit"
