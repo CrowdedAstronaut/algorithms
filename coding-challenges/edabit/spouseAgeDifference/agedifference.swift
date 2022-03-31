@@ -6,3 +6,5 @@ const ageDifference = (ages) => {
     ? `1 year`
     : `${sortedArray[0] - sortedArray[1]} years`;
 };
+
+
