@@ -1,0 +1,1 @@
+function arrIndex(arr, idx) {}
