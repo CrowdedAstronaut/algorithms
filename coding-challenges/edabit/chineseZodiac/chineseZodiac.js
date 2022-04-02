@@ -26,3 +26,19 @@ function chineseZodiac(birthyear) {
       return "Pig";
   }
 }
+
+const chineseZodiac = (birthYear) =>
+  [
+    "Monkey",
+    "Rooster",
+    "Dog",
+    "Pig",
+    "Rat",
+    "Ox",
+    "Tiger",
+    "Rabbit",
+    "Dragon",
+    "Snake",
+    "Horse",
+    "Sheep",
+  ][birthYear % 12];
