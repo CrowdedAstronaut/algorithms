@@ -1,3 +1,3 @@
-import UIKit;
-var totalAmountAdjectives = (obj) =>
-  Object.keys(obj).length;
+func totalAmountAdjectives(_ a: Int, _ b: Int) -> Int {
+	return(a + b)
+}
