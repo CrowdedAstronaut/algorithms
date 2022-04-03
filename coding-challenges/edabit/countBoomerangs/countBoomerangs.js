@@ -38,3 +38,13 @@ const countBoomerangs = (arr) => {
   }
   return collection;
 };
+
+//Edabit ForEach Solution
+function countBoomerangs(arr) {
+  boomCount = 0;
+  arr.forEach((num, i) => {
+    if (num === arr[i + 1]) return;
+    if (num === arr[i + 2]) boomCount++;
+  });
+  return boomCount;
+}
