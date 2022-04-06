@@ -6,6 +6,7 @@ function arrIndex(arr, idx) {
   return idx.map((x) => arr[x - 1]).join("");
 }
 
+//Edabit Solution
 function arrIndex(arr, idx) {
   let newArr = arr.flat();
   let answer = "";
