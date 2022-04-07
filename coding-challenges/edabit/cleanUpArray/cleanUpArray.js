@@ -9,5 +9,7 @@ function cleanUpArray(arr) {
       oddArray.push(Number(element));
     }
   }
-  return [evenArray, oddArray];
+  console.log([evenArray, oddArray]);
 }
+
+cleanUpArray(["9", "4", "5", "8"]);
