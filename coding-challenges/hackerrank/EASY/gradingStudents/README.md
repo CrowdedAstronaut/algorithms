@@ -53,7 +53,7 @@ Sample Output 0
 
 ### Explanation 0
 
-[Grade Chart](https://github.com/CrowdedAstronaut/algorithms/blob/main/coding-challenges/hackerrank/EASY/gradingStudents/gradechart.png?raw=true)
+![Grade Chart](https://github.com/CrowdedAstronaut/algorithms/blob/main/coding-challenges/hackerrank/EASY/gradingStudents/gradechart.png?raw=true)
 
 Student 1 received a 73, and the next multiple of 5 from 73 is 75. Since , 75-75 < 3, the student's grade is rounded to 75.
 Student 2 received a 67, and the next multiple of 5 from 67 is 70. Since 70-67 = 3, the grade will not be modified and the student's final grade is 67.
