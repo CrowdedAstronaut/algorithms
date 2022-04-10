@@ -7,3 +7,10 @@ function stupidAddition(a, b) {
     return null;
   }
 }
+
+//Really nice Edabit solution
+const stupidAddition = (a, b) => {
+  if (typeof a !== typeof b) return null;
+  if (typeof a === "string") return Number(a) + Number(b);
+  return `${a}${b}`;
+};
