@@ -7,3 +7,13 @@ function sumEvenNumsInRange(start, stop) {
   }
   return sum;
 }
+
+function sumEvenNumsInRange(start, stop) {
+  let arr = [];
+  for (let i = start; i <= stop; i++) {
+    if (i % 2 === 0) {
+      arr.push(i);
+    }
+  }
+  return arr.reduce((a, b) => a + b);
+}
