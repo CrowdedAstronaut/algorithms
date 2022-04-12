@@ -39,7 +39,7 @@ Explanation 0
 
 The two kangaroos jump through the following sequence of locations:
 
-image
+![](https://github.com/CrowdedAstronaut/algorithms/blob/main/coding-challenges/hackerrank/kangaroo/kangaroos.png?raw=true)
 
 From the image, it is clear that the kangaroos meet at the same location (number on the number line) after same number of jumps ( jumps), and we print YES.
 
