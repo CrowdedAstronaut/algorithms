@@ -8,11 +8,16 @@ The first kangaroo starts at location and moves at a rate of meters per jump.
 The second kangaroo starts at location and moves at a rate of meters per jump.
 You have to figure out a way to get both kangaroos at the same location at the same time as part of the show. If it is possible, return YES, otherwise return NO.
 
-Example
+#### Example:
 
-After one jump, they are both at , (, ), so the answer is YES.
+x1 = 2
+v1 = 1
+x2 = 1
+v2 = 2
 
-Function Description
+After one jump, they are both at x=3, (x1+v1 = 2+1,x2+v2 = 1+2), so the answer is YES.
+
+### Function Description
 
 Complete the function kangaroo in the editor below.
 
@@ -23,9 +28,10 @@ int x2, int v2: starting position and jump distance for kangaroo 2
 Returns
 
 string: either YES or NO
-Input Format
 
-A single line of four space-separated integers denoting the respective values of , , , and .
+### Input Format
+
+A single line of four space-separated integers denoting the respective values of x1, v1, x2, and v2.
 
 Constraints
 
@@ -36,10 +42,8 @@ Sample Output 0
 
 YES
 Explanation 0
-
-The two kangaroos jump through the following sequence of locations:
-
 ![](https://github.com/CrowdedAstronaut/algorithms/blob/main/coding-challenges/hackerrank/kangaroo/kangaroos.png?raw=true)
+The two kangaroos jump through the following sequence of locations:
 
 From the image, it is clear that the kangaroos meet at the same location (number on the number line) after same number of jumps ( jumps), and we print YES.
 
