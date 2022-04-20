@@ -10,8 +10,7 @@ function amplify(num) {
   return array;
 }
 
-console.log(amplify(25));
-
+//nice solution using map
 const amplify = (num) => {
   let result = [];
   for (let i = 1; i <= num; i++) {
