@@ -1,2 +1,2 @@
 const convertToDecimal = (perc) =>
-  perc.map((item) => parseFloat(item) * 0.001);
+  perc.map((item) => parseFloat(item) * 0.01);
