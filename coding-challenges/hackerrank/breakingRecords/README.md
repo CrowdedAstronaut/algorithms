@@ -41,7 +41,7 @@ Explanation 0
 
 The diagram below depicts the number of times Maria broke her best and worst records throughout the season:
 
-[](https://github.com/CrowdedAstronaut/algorithms/blob/main/coding-challenges/hackerrank/breakingRecords/Image1.png?raw=true)
+[Diagram](https://github.com/CrowdedAstronaut/algorithms/blob/main/coding-challenges/hackerrank/breakingRecords/Image1.png?raw=true)
 
 She broke her best record twice (after games and ) and her worst record four times (after games , , , and ), so we print 2 4 as our answer. Note that she did not break her record for best score during game , as her score during that game was not strictly greater than her best record at the time.
 
