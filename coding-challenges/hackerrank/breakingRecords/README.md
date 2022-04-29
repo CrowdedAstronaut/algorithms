@@ -22,13 +22,11 @@ breakingRecords has the following parameter(s):
 int scores[n]: points scored per game
 Returns
 
-int[2]: An array with the numbers of times she broke her records. Index is for breaking most points records, and index is for breaking least points records.
+int[2]: An array with the numbers of times she broke her records. Index 0 is for breaking most points records, and index 1 is for breaking least points records.
 Input Format
 
-The first line contains an integer , the number of games.
-The second line contains space-separated integers describing the respective values of .
-
-Constraints
+The first line contains an integer n, the number of games.
+The second line contains space-separated integers describing the respective values of score0, score1, .... scoreN-1.
 
 Sample Input 0
 
@@ -45,11 +43,12 @@ The diagram below depicts the number of times Maria broke her best and worst rec
 
 She broke her best record twice (after games and ) and her worst record four times (after games , , , and ), so we print 2 4 as our answer. Note that she did not break her record for best score during game , as her score during that game was not strictly greater than her best record at the time.
 
-Sample Input 1
+### Sample Input 1
 
 10
 3 4 21 36 10 28 35 5 24 42
-Sample Output 1
+
+### Sample Output 1
 
 4 0
 Explanation 1
@@ -58,4 +57,4 @@ The diagram below depicts the number of times Maria broke her best and worst rec
 
 ![](https://github.com/CrowdedAstronaut/algorithms/blob/main/coding-challenges/hackerrank/breakingRecords/image2.png?raw=true)
 
-She broke her best record four times (after games , , , and ) and her worst record zero times (no score during the season was lower than the one she earned during her first game), so we print 4 0 as our answer.
+She broke her best record four times (after games 1, 2, 3, and 9) and her worst record zero times (no score during the season was lower than the one she earned during her first game), so we print 4 0 as our answer.
