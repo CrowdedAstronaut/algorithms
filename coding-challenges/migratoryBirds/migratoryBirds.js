@@ -1,17 +1,26 @@
 const migratoryBirds = (arr) => {
-  let largest = 1;
-  let counter = largest;
-  let type = 0;
-  arr.sort();
-  for (let i = 0; i < arr.length; i++) {
-    if (
-      arr.lastIndexOf(arr[i]) - arr.indexOf(arr[i]) + 1 >
-      counter
-    ) {
-      counter = largest;
-      type = arr[i];
+  let seenBirds = {};
+
+  arr.forEach((bird) => {
+    if (!seenBirds[bird]) {
+      seenBirds[bird] = 1;
+    }
+    seenBirds[bird]++;
+  });
+
+  let birdId = 999;
+  let total = 0;
+
+  for (let key in seenBirds) {
+    if (seenBirds[key] > total) {
+      total = seenBirds[key];
+      birdId = key;
+    } else if (seenBirds[key] == total) {
+      if (birdId > key) {
+        birdId = key;
+      }
     }
   }
-  return type;
+  return birdId;
 };
 migratoryBirds([1, 4, 4, 4, 5, 3]);
