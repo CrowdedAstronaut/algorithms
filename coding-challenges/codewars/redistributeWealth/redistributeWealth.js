@@ -1,8 +1,8 @@
-function redistributeWealth(wealth) {
-  const average =
-    wealth.reduce((a, b) => a + b) / wealth.length;
-  let result = wealth.toString().replace(/[0-9]/g, average);
-  return result;
-}
-
+const redistributeWealth = (wealth) => {
+  let average =
+    wealth.reduce((a, b) => a + b, 0) / wealth.length;
+  for (let i = 0; i < wealth.length; i++) {
+    wealth[i] = average;
+  }
+};
 console.log(redistributeWealth([5, 10, 6]));
