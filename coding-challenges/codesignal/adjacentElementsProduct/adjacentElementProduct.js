@@ -8,11 +8,11 @@ console.log(adjacentElementsProduct([3, 6, -2, -5, 7, 3]));
 let endTime = new Date().getTime();
 
 console.log(`Call to doSomething took ${endTime - startTime} milliseconds`);
-// console.time(function adjacentElementsProduct(array) {
-//   let maxProduct = array[0] * array[1];
-//   for (let i = 1; i < array.length; i++) {
-//     product = array[i] * array[i + 1];
-//     if (product > maxProduct) maxProduct = product;
-//   }
-//   return maxProduct;
-// });
+console.time(function adjacentElementsProduct(array) {
+  let maxProduct = array[0] * array[1];
+  for (let i = 1; i < array.length; i++) {
+    product = array[i] * array[i + 1];
+    if (product > maxProduct) maxProduct = product;
+  }
+  return maxProduct;
+});
