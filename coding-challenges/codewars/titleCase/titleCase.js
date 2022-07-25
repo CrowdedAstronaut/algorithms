@@ -1,0 +1,1 @@
+function titleCase(title, minorWords) {}
