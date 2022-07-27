@@ -13,7 +13,10 @@ function merge(left, right) {
   let result = [];
   let leftIndex = 0;
   rightIndex = 0;
-  while (leftIndex < left.length && rightIndex < right.length) {
+  while (
+    leftIndex < left.length &&
+    rightIndex < right.length
+  ) {
     if (left[leftIndex] < right[rightIndex]) {
       result.push(left[leftIndex]);
       leftIndex++;
@@ -22,11 +25,18 @@ function merge(left, right) {
       rightIndex++;
     }
   }
-  return result.concat(left.slice(leftIndex)).concat(right.slice(rightIndex));
+  return result
+    .concat(left.slice(leftIndex))
+    .concat(right.slice(rightIndex));
 }
 function makeArrayConsecutive(statues) {
   statues = mergeSort(statues);
-  return statues[statues.length - 1] - statues[0] + 1 - statues.length;
+  return (
+    statues[statues.length - 1] -
+    statues[0] +
+    1 -
+    statues.length
+  );
 }
 
 function makeArrayConsecutive2(arr) {
