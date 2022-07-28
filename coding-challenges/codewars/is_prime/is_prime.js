@@ -6,7 +6,8 @@ function isPrime(num) {
   let count = 5;
 
   while (Math.pow(count, 2) <= num) {
-    if (num % count === 0 || num % (count + 2) === 0) return false;
+    if (num % count === 0 || num % (count + 2) === 0)
+      return false;
 
     count += 6;
   }
