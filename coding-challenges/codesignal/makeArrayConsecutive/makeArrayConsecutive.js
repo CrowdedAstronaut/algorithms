@@ -46,7 +46,7 @@ function makeArrayConsecutive2(arr) {
   let array = Array(last - first + 1)
     .fill()
     .map((_, idx) => first + idx);
-  return array.length - sorted.length;
+  return array;
 }
 
 console.log(makeArrayConsecutive2([6, 2, 3, 8]));

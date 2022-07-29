@@ -1,6 +1,8 @@
 function rotateLeft(d, arr) {
   // Write your code here
-  d -= arr.length * Math.floor(d / arr.length);
-  arr.push.apply(arr, arr.splice(0, d));
+  let x = (d -= arr.length * Math.floor(d / arr.length));
+  arr.push.apply(arr, arr.splice(0, x));
   return arr;
 }
+
+console.log(rotateLeft([2, 1, 3, 10, 9, 5, 6, 7]));
