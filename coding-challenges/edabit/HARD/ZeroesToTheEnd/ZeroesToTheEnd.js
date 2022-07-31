@@ -1,9 +1,19 @@
 function zeroesToEnd(a) {
-  let sorted = a.sort((a, b) => a - b);
-  for (let i = 0; i < sorted.length; i++) {
-    if (sorted[i] === 0) sorted.shift();
+  let len = a.length;
+  for (let i = 0; i < a.length; i++) {
+    if (a[i] == 0) {
+      a.splice(i, 1);
+      i--;
+    }
   }
-  return sorted;
+  a = [
+    ...a,
+    ...Array.from(
+      { length: Math.abs(a.length - len) },
+      () => 0
+    ),
+  ];
+  return a;
 }
 
 console.log(zeroesToEnd([6, 2, 0, 0, 4, 0, 5]));
