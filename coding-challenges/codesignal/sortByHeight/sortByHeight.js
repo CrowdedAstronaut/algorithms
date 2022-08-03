@@ -1,16 +1,13 @@
 function solution(a) {
-  let needsSorting = [];
-  let iValues = [];
-  for (let i = 0; i < a.length; i++) {
-    if (a[i] === -1) iValues.push(i);
-    else needsSorting.push(a[i]);
-  }
-  needsSorting.sort((a, b) => a - b);
-  for (let j = 0; j < needsSorting.length; j++) {
-    needsSorting.splice(0, j, -1);
-  }
-
-  console.log(needsSorting);
+  const sortedPeople = a
+    .filter((item) => item != -1)
+    .sort((a, b) => a - b);
+  let i = -1;
+  return a.map((value) => {
+    if (value === -1) return -1;
+    i++;
+    return (a = sortedPeople[i]);
+  });
 }
 
 a = [-1, 150, 190, 170, -1, -1, 160, 180];

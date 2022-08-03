@@ -1,0 +1,16 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btns {
+  width: 75%;
+}
+
+.btns > .btnStyle {
+  /* display: inline-grid; */
+  width: 30%;
+  height: 48px;
+  font-size: 24px;
+}
