@@ -1,8 +1,8 @@
 const twoSum = (nums, target) => {
-  let array = nums.map((num) => Number(num));
-  for (let i = 0; i < array.length; i++) {
-    for (let j = i + 1; j < array.length; j++) {
-      if (array[i] + array[j] === target) {
+  // let array = nums.map((num) => Number(num));
+  for (let i = 0; i < nums.length; i++) {
+    for (let j = i + 1; j < nums.length; j++) {
+      if (nums[i] + nums[j] === target) {
         return [i, j];
       }
     }
